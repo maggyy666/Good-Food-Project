@@ -5,116 +5,24 @@
       "PackagePath": "staticwebassets\\GoodFoodProjectMVC.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.css"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\css\\font-awesome.min.css",
-      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\css\\blacks.css",
+      "PackagePath": "staticwebassets\\css\\blacks.css"
     },
     {
       "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\css\\responsive.css",
       "PackagePath": "staticwebassets\\css\\responsive.css"
     },
     {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\css\\style.css",
-      "PackagePath": "staticwebassets\\css\\style.css"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\css\\style.css.map",
-      "PackagePath": "staticwebassets\\css\\style.css.map"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\css\\style.scss",
-      "PackagePath": "staticwebassets\\css\\style.scss"
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\fonts\\fontawesome-webfont.ttf",
-      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\fonts\\fontawesome-webfont.woff",
-      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\fonts\\fontawesome-webfont.woff2",
-      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\images\\about-img.png",
-      "PackagePath": "staticwebassets\\images\\about-img.png"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\images\\client1.jpg",
-      "PackagePath": "staticwebassets\\images\\client1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\images\\client2.jpg",
-      "PackagePath": "staticwebassets\\images\\client2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\images\\f1.png",
-      "PackagePath": "staticwebassets\\images\\f1.png"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\images\\f2.png",
-      "PackagePath": "staticwebassets\\images\\f2.png"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\images\\f3.png",
-      "PackagePath": "staticwebassets\\images\\f3.png"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\images\\f4.png",
-      "PackagePath": "staticwebassets\\images\\f4.png"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\images\\f5.png",
-      "PackagePath": "staticwebassets\\images\\f5.png"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\images\\f6.png",
-      "PackagePath": "staticwebassets\\images\\f6.png"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\images\\f7.png",
-      "PackagePath": "staticwebassets\\images\\f7.png"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\images\\f8.png",
-      "PackagePath": "staticwebassets\\images\\f8.png"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\images\\f9.png",
-      "PackagePath": "staticwebassets\\images\\f9.png"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\images\\favicon.png",
-      "PackagePath": "staticwebassets\\images\\favicon.png"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\images\\hero-bg.jpg",
-      "PackagePath": "staticwebassets\\images\\hero-bg.jpg"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\images\\o1.jpg",
-      "PackagePath": "staticwebassets\\images\\o1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\images\\o2.jpg",
-      "PackagePath": "staticwebassets\\images\\o2.jpg"
-    },
-    {
       "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.js"
-    },
-    {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\js\\custom.js",
-      "PackagePath": "staticwebassets\\js\\custom.js"
     },
     {
       "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\js\\jquery-3.4.1.min.js",
