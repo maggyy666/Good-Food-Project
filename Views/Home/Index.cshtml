@@ -2,51 +2,91 @@
 
 <html lang="en">
 
-   
+
 <head>
     <title>Page Title</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/blacks.css" rel="stylesheet" />
-@*   <link href="css/responsive.css" rel="stylesheet" />*@
+    <link href="images" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="js/javascript.js" />
+    
+    @*
+    <link href="css/responsive.css" rel="stylesheet" />*@
 
-    </head>
-    
-    
+</head>
+
+
 <body>
 
     <div class="full">
         <header class="header">
             <ul class="header-menu">
-                <li><a style="font-weight:bolder;font-size:2vh;color:white">GoodFood</a></li>
+                <li><a style="font-weight:bolder;font-size:2vh;color:white;">GoodFood</a></li>
+
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Recipes</a></li>
                 <li><a href="#">Privacy</a></li>
             </ul>
-
+            <div class="mobile-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
 
         </header>
 
     </div>
     <div class="main-section">
-    <div class="left-section">
-        <div class="header-text">
-            GOOD FOOD PROJECT:::
+        <div class="left-section">
+            <div class="header-text">
+                <span style="font-weight:bold;font-size:6vh">Enjoy your meals, with us!</span>
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Convallis convallis tellus id interdum velit laoreet.
+                Dui accumsan sit amet nulla.
+            </div>
+            <button class="join-button">Join us, today!</button>
         </div>
-        <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Convallis convallis tellus id interdum velit laoreet. 
-        Dui accumsan sit amet nulla.
+
+        <div class="right-section">
+            <!-- Miejsce na zdjęcie -->
+            <img src="images/eating.png" style="max-width:100%;height:auto; "alt="Zdjęcie" class="header-image;">
         </div>
-    </div>
-    <div class="right-section">
-        <!-- Miejsce na zdjęcie -->
-        <img src="sciezka_do_zdjecia.jpg" alt="Zdjęcie" class="header-image">
-    </div>
     </div>
 
-        
-    
+
+    <footer class="footer">
+        <div class="footer-left">
+            <span style="color:gray;">&copy;2024</span>
+            <span style="color:white;font-weight:bold">GoodFood</span>
+        </div>
+        <div class="footer-center">
+            <!--Miejsce na logo-->
+            <img src="logo.jpg" alt="logo" class="logo" />
+            <div class="logo"></div>
+            <!--Miejsce na "EN/PL"-->
+            <div class="language">
+                <span style="color:white">
+                    EN / PL
+                </span></div>
+        </div>
+        <div class="footer-right">
+            <!--Ikony social media-->
+            <div class="social-icons">
+                <a href="www.facebook.com" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+        </div>
+    </footer>
+
+
+
 </body>
+
 </html>

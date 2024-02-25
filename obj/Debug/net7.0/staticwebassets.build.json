@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lePoLB18LNJIrY4SM2K0DyTeNz1RQmVLlz9ntaM25Fs=",
+  "Hash": "qeD7jIcNp1cbOJ9jLwkk/PmBdEvHQ1nG0PzDBNN0Jyk=",
   "Source": "GoodFoodProjectMVC",
   "BasePath": "_content/GoodFoodProjectMVC",
   "Mode": "Default",
@@ -119,6 +119,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\images\\eating.png",
+      "SourceId": "GoodFoodProjectMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "BasePath": "_content/GoodFoodProjectMVC",
+      "RelativePath": "images/eating.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\eating.png"
+    },
+    {
       "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\js\\bootstrap.js",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
@@ -134,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.js"
+    },
+    {
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\js\\javascript.js",
+      "SourceId": "GoodFoodProjectMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "BasePath": "_content/GoodFoodProjectMVC",
+      "RelativePath": "js/javascript.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\javascript.js"
     },
     {
       "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\js\\jquery-3.4.1.min.js",
