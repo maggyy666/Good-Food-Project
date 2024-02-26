@@ -201,4 +201,27 @@ header {
         right: 15px;
         font-size: 2rem;
     }
+
+/*Recipes*/
+.recipe-header {
+    text-align: left;
+    font-size: 3vh;
+    font-weight: bolder;
+}
+
+.recipe-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipe-image {
+    width: 50vw;
+    height: auto;
+}
+
+.recipe-description {
+    max-width: 70vh;
+    word-wrap: break-word;
+    text-align:left;
 }

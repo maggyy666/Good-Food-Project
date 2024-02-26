@@ -1,5 +1,87 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="~/css/blacks.css" rel="stylesheet" />
+    <link href="~/images" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="~/js/javascript.js" />
+
+    @*
+    <link href="css/responsive.css" rel="stylesheet" />*@
+
+</head>
+
+
+<body>
+
+    <div class="full">
+        <header class="header">
+            <ul class="header-menu">
+                <li><a style="font-weight:bolder;font-size:2vh;color:white;">GoodFood</a></li>
+
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("Recipes", "Recipes", "Home")</li>
+                <li>@Html.ActionLink("Privacy", "Privacy", "Home")</li>
+            </ul>
+            <div class="mobile-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+        </header>
+
+    </div>
+    <div class="main-section">
+        <div class="left-section">
+            <div class="recipe-header">
+                <h1>Przepis 1</h1>
+               </div>
+               <div class="recipe-description">
+                    <p> Opis przepisu Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                   </div>
+               </div>
+               <div class="right-section">
+                   <img src="image" alt="Przepis" class="recipe-image" />
+    </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer-left">
+            <span style="color:gray;">&copy;2024</span>
+            <span style="color:white;font-weight:bold">GoodFood</span>
+        </div>
+        <div class="footer-center">
+            <!--Miejsce na logo-->
+            <img src="logo.jpg" alt="logo" class="logo" />
+            <div class="logo"></div>
+            <!--Miejsce na "EN/PL"-->
+            <div class="language">
+                <span style="color:white">
+                    EN / PL
+                </span>
+            </div>
+        </div>
+        <div class="footer-right">
+            <!--Ikony social media-->
+            <div class="social-icons">
+                <a href="www.facebook.com" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

@@ -25,9 +25,10 @@
             <ul class="header-menu">
                 <li><a style="font-weight:bolder;font-size:2vh;color:white;">GoodFood</a></li>
 
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Recipes</a></li>
-                <li><a href="#">Privacy</a></li>
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("Recipes", "Recipes", "Home")</li>
+                <li>@Html.ActionLink("Privacy", "Privacy", "Home")</li>
+                <li>@Html.ActionLink("Add", "Add","Home")</li>
             </ul>
             <div class="mobile-menu">
                 <div class="bar"></div>

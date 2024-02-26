@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Page Title</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width initial-scale=1" />
+        <link href="~/css/blacks.css" rel="stylesheet"/>
+        <link href="~/images" />
+        <link href="~/js/javascript.js" />
+    </head>
+
+    <body>
+        <div class="full">
+            <header class="header">
+                <ul class="header-menu">
+                    <li><a style="font-weight:bolder;font-size:2vh;color:white;">GoodFood</a></li>
+
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Recipes", "Recipes", "Home")</li>
+                    <li>@Html.ActionLink("Privacy", "Privacy", "Home")</li>
+                    <li>@Html.ActionLink("Add", "Add", "Home")</li>
+                </ul>
+
+            </header>
+        </div>
+    </body>
+</html>
