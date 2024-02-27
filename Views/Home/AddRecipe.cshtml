@@ -1,27 +1,61 @@
 ﻿<!DOCTYPE html>
+
 <html lang="en">
-    <head>
-        <title>Page Title</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width initial-scale=1" />
-        <link href="~/css/blacks.css" rel="stylesheet"/>
-        <link href="~/images" />
-        <link href="~/js/javascript.js" />
-    </head>
 
-    <body>
-        <div class="full">
-            <header class="header">
-                <ul class="header-menu">
-                    <li><a style="font-weight:bolder;font-size:2vh;color:white;">GoodFood</a></li>
 
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Recipes", "Recipes", "Home")</li>
-                    <li>@Html.ActionLink("Privacy", "Privacy", "Home")</li>
-                    <li>@Html.ActionLink("Add", "Add", "Home")</li>
-                </ul>
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="~/css/blacks.css" rel="stylesheet" />
+    <link href="~/images/" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="~/js/javascript.js" />
 
-            </header>
+    @*
+    <link href="css/responsive.css" rel="stylesheet" />*@
+
+</head>
+
+
+<body>
+
+    <div class="full">
+        <header class="header">
+            <ul class="header-menu">
+                <li><a style="font-weight:bolder;font-size:2vh;color:white;">GoodFood</a></li>
+
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("Recipes", "Recipes", "Home")</li>
+                <li>@Html.ActionLink("Privacy", "Privacy", "Home")</li>
+                <li>@Html.ActionLink("Add", "AddRecipe","Home")</li>
+            </ul>
+        </header>
+
+        <div class="main-section">
+            <div class="recipe-content">
+                <div class="recipe-header">
+                    <label for="recipeTitle">Recipe Title:</label>
+                    <input type="text" id="recipeTitle" name="recipeTitle" />
+                </div>
+                <div class="recipe-description">
+                    <label for="recipeTitle">Recipe Description:</label>
+                    <input type="text" id="recipeDescription" name="recipeDescription" />
+                </div>
+                <div class="recipe-image">
+                    <input type="image" id="recipeImage" name="recipeImage" />
+                </div>
+                <div class="recipe-button">
+                    <button type="button">Click Me!</button>
+                </div>
+            </div>
+
         </div>
+        </div>
+   
+
+
     </body>
-</html>
+    </html>
+
+               

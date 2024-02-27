@@ -22,11 +22,13 @@ namespace GoodFoodProjectMVC.Controllers
         {
             return View();
         }
+        [HttpGet]
         public IActionResult Recipes()
         {
+            //Get recipes from database
             return View();
         }
-        public IActionResult Add()
+        public IActionResult AddRecipe()
         {
             return View();
         }
@@ -36,5 +38,7 @@ namespace GoodFoodProjectMVC.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+  
+
     }
 }

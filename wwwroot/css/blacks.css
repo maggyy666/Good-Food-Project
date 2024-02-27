@@ -225,3 +225,9 @@ header {
     word-wrap: break-word;
     text-align:left;
 }
+
+.recipe-button{
+    max-width: 20vh;
+    text-align:center;
+    display:flex;
+}
