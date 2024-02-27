@@ -114,6 +114,14 @@ header {
         align-items: center;
     }
 
+    .add-section{
+        display:flex;
+       flex-direction:column;
+       justify-content:center;
+       align-items:center;
+       height:100vh;
+    }
+
     .left-section {
         flex: 1;
         padding-right: 5vh;
@@ -231,3 +239,4 @@ header {
     text-align:center;
     display:flex;
 }
+
