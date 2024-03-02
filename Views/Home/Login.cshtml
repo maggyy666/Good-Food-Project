@@ -1,79 +1,100 @@
 ﻿<!DOCTYPE html>
-<html>
-    <head>
-        <title>Page Title</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link href="~/css/blacks.css" rel="stylesheet"/>
-        <link href="~/images/" />
-        <link href="~/js/javascript.js" />
 
-    </head>
-    <body>
+<html lang="en">
 
-        <div class=full>
-            <header class="header">
-                <ul class="header-menu">
-                    <li><a style="font-weight:bolder;font-size:2vh;color:white">GoodFood</a></li>
 
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Recipes", "Recipes", "Home")</li>
-                    <li>@Html.ActionLink("Privacy", "Privacy", "Home")</li>
-                    <li>@Html.ActionLink("Add", "AddRecipe", "Home")</li>
-                </ul>
-            </header>
-            <div class="main-section">
-            <div class="row justify-content-center">
-                <div class="col-md-10">
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <link href="~/css/index.css" rel="stylesheet" />
+    <link href="images" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="js/javascript.js" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-                    <div class="row align-items-center">
-                        <div class="col-lg-7 mb-5 mb-lg-0">
+    @*
+    <link href="css/responsive.css" rel="stylesheet" />*@
 
-                            <h2 class="mb-5">Fill the form. <br> It's easy.</h2>
+</head>
 
-                            <form class="border-right pr-5 mb-5" method="post" id="contactForm" name="contactForm">
-                                <div class="row">
-                                    <div class="col-md-6 form-group">
-                                        <input type="text" class="form-control" name="fname" id="fname" placeholder="First name">
-                                    </div>
-                                    <div class="col-md-6 form-group">
-                                        <input type="text" class="form-control" name="lname" id="lname" placeholder="Last name">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12 form-group">
-                                        <input type="text" class="form-control" name="email" id="email" placeholder="Email">
-                                    </div>
-                                </div>
 
-                                <div class="row">
-                                    <div class="col-md-12 form-group">
-                                        <textarea class="form-control" name="message" id="message" cols="30" rows="7" placeholder="Write your message"></textarea>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <input type="submit" value="Send Message" class="btn btn-primary rounded-0 py-2 px-4">
-                                        <span class="submitting"></span>
-                                    </div>
-                                </div>
-                            </form>
+<body>
 
-                            <div id="form-message-warning mt-4"></div>
-                            <div id="form-message-success">
-                                Your message was sent, thank you!
-                            </div>
+    <div class="full">
 
-                        </div>
-                        <div class="col-lg-4 ml-auto">
-                            <h3 class="mb-4">Let's talk about everything.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil deleniti itaque similique magni. Magni, laboriosam perferendis maxime!</p>
-                            <p><a href="#">Read more</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
+        @*<header class="header w3-container w3-padding-16" style="width:100%; margin:0; padding:0; position:absolute; left:0; background-color: black; color: white;">
+        <ul class="header-menu" style="list-style: none; margin: 0; padding: 0; display: flex; align-items: center;">
+        <li style="margin-right: auto;"><a style="font-weight: bolder; font-size: 2vh; color: white;">GoodFood</a></li>
+        <li style="margin-left: 20px;">@Html.ActionLink("Home", "Index", "Home")</li>
+        <li style="margin-left: 20px;">@Html.ActionLink("Recipes", "Recipes", "Home")</li>
+        <li style="margin-left: 20px;">@Html.ActionLink("Privacy", "Privacy", "Home")</li>
+        <li style="margin-left: 20px;">@Html.ActionLink("Add", "AddRecipe", "Home")</li>
+        </ul>
+        <div class="mobile-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
         </div>
-    </body>
+        </header>*@
+        @*<header class="w3 container w3-teal w3-padding-16" style="width:100%; margin:0; padding:0;position:absolute;left:0;">
+        <h1>Header</h1>
+        </header>*@
+        <header class="header">
+            <ul class="header-menu">
+                <li><a class="header-logo">GoodFood</a></li>
+
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("Recipes", "Recipes", "Home")</li>
+                <li>@Html.ActionLink("Add Recipe", "AddRecipe","Home")</li>
+                <li>@Html.ActionLink("Join Us","Register","Home")</li>
+                <li>@Html.ActionLink("About","About","Home")</li>
+
+            </ul>
+
+
+        </header>
+        <div class="main-section">
+            <form>
+                <h2>Login</h2>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Login</button>
+                <p class="forgot-password"><a href="#">Forgot Password?</a></p>
+            </form>
+
+           
+
+
+
+            </div>
+    </div>
+    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px; width:100%; margin:0%;padding:0%;clear:both;position:absolute;left:0%">
+        <i class="fa fa-facebook-official w3-hover-opacity "></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p class="w3-medium">Powered by XD | &copy; 2023</p>
+    </footer>
+
+    
+
+
+
+</body>
+
 </html>
+
+
+
+
+
