@@ -6,7 +6,7 @@
 <head>
     <title>Page Title</title>
     <meta charset="UTF-8">
-    <link href="css/blacks.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
     <link href="images" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="js/javascript.js" />
@@ -48,17 +48,16 @@
                 <li><a class="header-logo">GoodFood</a></li>
 
                 <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                <li>@Html.ActionLink("Recipes", "Recipes", "Home")</li>
-                <li>@Html.ActionLink("Privacy", "Privacy", "Home")</li>
-                <li>@Html.ActionLink("Add", "AddRecipe","Home")</li>
+                <li>@Html.ActionLink("Recipes", "Recipes", "Home")</li>         
+                <li>@Html.ActionLink("Add Recipe", "AddRecipe","Home")</li>
+                <li>@Html.ActionLink("Join Us","Register","Home")</li>
+                <li>@Html.ActionLink("About","About","Home")</li>
+
             </ul>
-            <div class="mobile-menu">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
+      
 
         </header>
+  
 
 
 
@@ -103,3 +102,7 @@
 </body>
 
 </html>
+
+
+
+
