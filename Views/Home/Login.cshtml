@@ -25,24 +25,6 @@
 <body>
 
     <div class="full">
-
-        @*<header class="header w3-container w3-padding-16" style="width:100%; margin:0; padding:0; position:absolute; left:0; background-color: black; color: white;">
-        <ul class="header-menu" style="list-style: none; margin: 0; padding: 0; display: flex; align-items: center;">
-        <li style="margin-right: auto;"><a style="font-weight: bolder; font-size: 2vh; color: white;">GoodFood</a></li>
-        <li style="margin-left: 20px;">@Html.ActionLink("Home", "Index", "Home")</li>
-        <li style="margin-left: 20px;">@Html.ActionLink("Recipes", "Recipes", "Home")</li>
-        <li style="margin-left: 20px;">@Html.ActionLink("Privacy", "Privacy", "Home")</li>
-        <li style="margin-left: 20px;">@Html.ActionLink("Add", "AddRecipe", "Home")</li>
-        </ul>
-        <div class="mobile-menu">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-        </div>
-        </header>*@
-        @*<header class="w3 container w3-teal w3-padding-16" style="width:100%; margin:0; padding:0;position:absolute;left:0;">
-        <h1>Header</h1>
-        </header>*@
         <header class="header">
             <ul class="header-menu">
                 <li><a class="header-logo">GoodFood</a></li>
@@ -57,25 +39,50 @@
 
 
         </header>
-        <div class="main-section">
-            <form>
-                <h2>Login</h2>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+      <div class="main-section">
+            <div class="container">
 
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
 
-                <button type="submit">Login</button>
-                <p class="forgot-password"><a href="#">Forgot Password?</a></p>
-            </form>
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+
+                        <div class="row align-items-center">
+                            <div class="col-lg-7 mb-5 mb-lg-0">
+
+                                <h2 class="mb-5" style="font-size:6vh; font-weight:bold">Welcome <br style="font-size:6vh"> back!</h2>
+
+                                <form>
+                                    <h2>Login</h2>
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email" required>
+
+                                    <label for="password">Password:</label>
+                                    <input type="password" id="password" name="password" required>
+
+                                    <button type="submit">Login</button>
+                                    <p class="forgot-password"><a href="#">Forgot Password?</a></p>
+                                </form>
+
+                            </div>
+                            <div class="col-lg-4 ml-auto">
+                                <h3 class="mb-4" style="font-weight:bold">Don't have account? <br style="font-size:6vh"> No worries!<br /></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil deleniti itaque similique magni. Magni, laboriosam perferendis maxime!</p>
+                                <p><a href="/Home/Register">Create one, for free!</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
            
 
 
 
             </div>
-    </div>
+
+
+      
     <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px; width:100%; margin:0%;padding:0%;clear:both;position:absolute;left:0%">
         <i class="fa fa-facebook-official w3-hover-opacity "></i>
         <i class="fa fa-instagram w3-hover-opacity"></i>
