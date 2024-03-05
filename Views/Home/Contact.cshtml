@@ -26,9 +26,31 @@
                 <li><a style="font-weight:bolder;font-size:2vh;color:white;">GoodFood</a></li>
 
                 <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                <li>@Html.ActionLink("Recipes", "Recipes", "Home")</li>
-                <li>@Html.ActionLink("Privacy", "Privacy", "Home")</li>
-                <li>@Html.ActionLink("Add", "AddRecipe","Home")</li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Recipes <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li>@Html.ActionLink("List of Recipes", "Recipes", "Home")</li>
+                        <li>@Html.ActionLink("Create New", "AddRecipe", "Home")</li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li>@Html.ActionLink("Contact Us", "Contact", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Privacy", "Privacy", "Home")</li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Join Us <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li>@Html.ActionLink("Login", "Login", "Home")</li>
+                        <li>@Html.ActionLink("Register", "Register", "Home")</li>
+                    </ul>
+                </li>
+
+
+
             </ul>
         </header>
 
