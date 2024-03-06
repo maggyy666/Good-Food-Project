@@ -5,8 +5,12 @@
       "PackagePath": "staticwebassets\\GoodFoodProjectMVC.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\css\\blacks.css",
-      "PackagePath": "staticwebassets\\css\\blacks.css"
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
       "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\css\\responsive.css",

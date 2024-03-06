@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qeD7jIcNp1cbOJ9jLwkk/PmBdEvHQ1nG0PzDBNN0Jyk=",
+  "Hash": "5TYcra0XRKFGdK/TX5syCkWvBXIDFTmtfAOYdBPxTQQ=",
   "Source": "GoodFoodProjectMVC",
   "BasePath": "_content/GoodFoodProjectMVC",
   "Mode": "Default",
@@ -51,12 +51,12 @@
       "OriginalItemSpec": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\GoodFoodProjectMVC.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\css\\blacks.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\css\\index.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
-      "RelativePath": "css/blacks.css",
+      "RelativePath": "css/index.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,7 +65,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\blacks.css"
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\css\\login.css",
+      "SourceId": "GoodFoodProjectMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "BasePath": "_content/GoodFoodProjectMVC",
+      "RelativePath": "css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
       "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\css\\responsive.css",
