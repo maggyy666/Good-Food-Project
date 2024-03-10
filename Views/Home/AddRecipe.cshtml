@@ -1,4 +1,7 @@
 ﻿@model GoodFoodProjectMVC.Models.Recipe
+@{
+    ViewData["Title"] = "Add Recipe";
+}
 <!DOCTYPE html>
 
 <html lang="en">
@@ -51,15 +54,18 @@
                         <div class="row align-items-center">
                             <div class="col-lg-7 mb-5 mb-lg-0">
 
-                            <form class="recipe-form">
+                           <form asp-action="AddRecipe" asp-controller="Home" method="post" class="recipe-form">
                                 <h2>Add a New Recipe</h2>
                                 <label for="title">Title:</label>
-                                <input type="text" id="title" name="title" required />
-                                <label for="description">Description (up to 300 characters):</label>
-                                <textarea id="description" name="description" maxlength="300" required></textarea>
+                                
+                                <input asp-for="Name" class="form-control" required />
+                                
+                                <label asp-for="Description">Description (up to 300 characters): </label>
 
-                                <label for="image">Image:</label>
-                                <input type="file" id="image" name="image">
+                                <textarea asp-for="Description" class="form-control" maxlength="300" required></textarea>
+
+                                <label asp-for="ImagePath">Image: </label>
+                                <input type="file" asp-for="ImagePath" class="form-control" />
 
                                 <button type="submit">Submit</button>
                             </form>
