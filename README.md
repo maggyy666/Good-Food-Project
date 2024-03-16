@@ -25,13 +25,13 @@ The GoodFood Project is a .NET application designed for food enthusiasts, offeri
 4. Build and run the application within Vistual Studio.
 
 ## Usage
-- **Upon launching the application, users can navigate to the recipe submission section.
-- **Users can input their recipes, including ingredients, instructions, and other relevant details.
-- **Submitted recipes are securely stored in the SQL Express database.
-- **The main interface of the application dynamically presents articles generated from the database content, showcasing the submitted recipes to users.
-- **Users can utilize the search functionality to discover specific recipes or ingredients.
-- **Engage with the community by rating and commenting on recipes.
-- **Personalize their experience through user profiles, managing submitted recipes and interacting with other users.
+- Upon launching the application, users can navigate to the recipe submission section.
+- Users can input their recipes, including ingredients, instructions, and other relevant details.
+- Submitted recipes are securely stored in the SQL Express database.
+- The main interface of the application dynamically presents articles generated from the database content, showcasing the submitted recipes to users.
+- Users can utilize the search functionality to discover specific recipes or ingredients.
+- Engage with the community by rating and commenting on recipes.
+- Personalize their experience through user profiles, managing submitted recipes and interacting with other users.
 
 ## Contribution
 Contributions to the GoodFood Project are highly encouraged. If you encounter any issues, have ideas for new features, or wish to contribute improvements, please feel free to open an issue or submit a pull request. Your contributions help enhance the GoodFood community experience for everyone.
