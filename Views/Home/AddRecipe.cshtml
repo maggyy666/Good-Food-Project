@@ -1,4 +1,4 @@
-﻿@model GoodFoodProjectMVC.Models.Recipe
+﻿@model GoodFoodProjectMVC.Models.Recipes
 @{
     ViewData["Title"] = "Add Recipe";
 }
@@ -63,9 +63,7 @@
                                 <label asp-for="Description">Description (up to 300 characters): </label>
 
                                 <textarea asp-for="Description" class="form-control" maxlength="300" required></textarea>
-
-                                <label asp-for="ImagePath">Image: </label>
-                                <input type="file" asp-for="ImagePath" class="form-control" />
+                              
 
                                 <button type="submit">Submit</button>
                             </form>
