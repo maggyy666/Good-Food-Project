@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html>
+﻿@model List<GoodFoodProjectMVC.Models.Recipes>
 
+<!DOCTYPE html>
 <html lang="en">
 
-
 <head>
-    <title>Page Title</title>
+    <title>GoodFood Recipes</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="~/css/index.css" rel="stylesheet" />
@@ -16,44 +16,56 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    @*
-    <link href="css/responsive.css" rel="stylesheet" />*@
+    <!-- CSS styles -->
+    <style>
+        /* Add your custom styles here */
+        .recipe-header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
 
+        .recipe-description {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .recipe-image {
+            width: 100%;
+            max-width: 300px; /* Adjust image size as needed */
+            height: auto;
+        }
+    </style>
 </head>
 
-
 <body>
-
-    
-        <header class="header">
-            <ul class="header-menu">
-                <li><a class="header-logo">GoodFood</a></li>
-
-                <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                <li>@Html.ActionLink("Recipes", "Recipes", "Home")</li>
-                <li>@Html.ActionLink("Add Recipe", "AddRecipe","Home")</li>
-                <li>@Html.ActionLink("Join Us","Register","Home")</li>
-                <li>@Html.ActionLink("About","About","Home")</li>
-
-            </ul>
-
-
-        </header>
+    <header class="header">
+        <ul class="header-menu">
+            <li><a class="header-logo">GoodFood</a></li>
+            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+            <li>@Html.ActionLink("Recipes", "Recipes", "Home")</li>
+            <li>@Html.ActionLink("Add Recipe", "AddRecipe","Home")</li>
+            <li>@Html.ActionLink("Join Us","Register","Home")</li>
+            <li>@Html.ActionLink("About","About","Home")</li>
+        </ul>
+    </header>
 
     <div class="main-section">
-        <div class="left-section">
-            <div class="recipe-header">
-                <h1>Przepis 1</h1>
-               </div>
-               <div class="recipe-description">
-                    <p> Opis przepisu Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                   </div>
-               </div>
-               <div class="right-section">
-                   <img src="image" alt="Przepis" class="recipe-image" />
+        <div class="main-section">
+            <div class="recipe-list">
+                <h1>Recipes</h1>
+                <ul>
+                    @foreach (var recipe in Model)
+                    {
+                        <li>
+                            <h2>@recipe.Name</h2>
+                            <p>@recipe.Description</p>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
     </div>
-    </div>
-
 
     <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px; width:100%; margin:0%;padding:0%;clear:both;position:absolute;left:0%">
         <i class="fa fa-facebook-official w3-hover-opacity "></i>
@@ -64,10 +76,6 @@
         <i class="fa fa-linkedin w3-hover-opacity"></i>
         <p class="w3-medium">Powered by XD | &copy; 2023</p>
     </footer>
-
-
-
-
 </body>
 
 </html>
