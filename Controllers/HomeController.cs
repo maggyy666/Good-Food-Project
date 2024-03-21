@@ -1,31 +1,30 @@
 ﻿using GoodFoodProjectMVC.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using System.Diagnostics;
-using Microsoft.Data.SqlClient;
 using Microsoft.AspNetCore.Hosting.Server;
+using Microsoft.Data.SqlClient;
 
 namespace GoodFoodProjectMVC.Controllers
 {
     public class HomeController : Controller
     {
-        private const string ConnectionString = "Server=localhost\\SQLEXPRESS01;Database=goodfood;Trusted_Connection=True;TrustServerCertificate=True;";
-
+        private const string ConnectionString = "Server=localhost\\SQLEXPRESS;Database=goodfood;Integrated Security=True;TrustServerCertificate=True;";
 
         [HttpPost]
-        public IActionResult AddRecipe(Recipe recipe)
+        public IActionResult AddRecipe(Recipes recipe)
         {
             if (ModelState.IsValid)
             {
-                using(SqlConnection connection = new SqlConnection(ConnectionString))
+                using (SqlConnection connection = new SqlConnection(ConnectionString))
                 {
                     connection.Open();
 
-                    string query = "INSERT INTO Recipes (Name, Description, ImagePath) VALUES (@Name, @Description, @ImagePath)";
-                    using (SqlCommand command = new SqlCommand(query,connection))
+                    string query = "INSERT INTO Recipes (Name, Description) VALUES (@Name, @Description)";
+                    using (SqlCommand command = new SqlCommand(query, connection))
                     {
                         command.Parameters.AddWithValue("@Name", recipe.Name);
                         command.Parameters.AddWithValue("@Description", recipe.Description);
-                        command.Parameters.AddWithValue("@ImagePath", recipe.ImagePath);
 
                         command.ExecuteNonQuery();
                     }
@@ -34,8 +33,6 @@ namespace GoodFoodProjectMVC.Controllers
             }
             return View(recipe);
         }
-
-
 
         private readonly ILogger<HomeController> _logger;
 
@@ -53,38 +50,62 @@ namespace GoodFoodProjectMVC.Controllers
         {
             return View();
         }
+
         [HttpGet]
         public IActionResult Recipes()
         {
-            //Get recipes from database
-            return View();
+            List<Recipes> recipes = new List<Recipes>();
+            using (SqlConnection connection = new SqlConnection(ConnectionString))
+            {
+                connection.Open();
+                string query = "SELECT Name, Description FROM Recipes";
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            recipes.Add(new Recipes
+                            {
+                                Name = reader.GetString(0),
+                                Description = reader.GetString(1)
+                            });
+                        }
+                    }
+                }
+            }
+            return View(recipes);
         }
+
         public IActionResult AddRecipe()
         {
             return View();
         }
+
         public IActionResult Login()
         {
             return View();
         }
+
         public IActionResult Register()
         {
             return View();
         }
+
         public IActionResult About()
         {
             return View();
         }
+
         public IActionResult Contact()
         {
             return View();
         }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-  
-
     }
 }
