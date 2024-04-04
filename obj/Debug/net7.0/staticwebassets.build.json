@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5TYcra0XRKFGdK/TX5syCkWvBXIDFTmtfAOYdBPxTQQ=",
+  "Hash": "gQZOWAfgrm2fvbMoT2n75J5lxHgAh26kH/UssKVgBEE=",
   "Source": "GoodFoodProjectMVC",
   "BasePath": "_content/GoodFoodProjectMVC",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "GoodFoodProjectMVC\\wwwroot",
       "Source": "GoodFoodProjectMVC",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\obj\\Debug\\net7.0\\scopedcss\\bundle\\GoodFoodProjectMVC.styles.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\obj\\Debug\\net7.0\\scopedcss\\bundle\\GoodFoodProjectMVC.styles.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "GoodFoodProjectMVC.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\obj\\Debug\\net7.0\\scopedcss\\bundle\\GoodFoodProjectMVC.styles.css"
+      "OriginalItemSpec": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\obj\\Debug\\net7.0\\scopedcss\\bundle\\GoodFoodProjectMVC.styles.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\GoodFoodProjectMVC.bundle.scp.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\GoodFoodProjectMVC.bundle.scp.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "GoodFoodProjectMVC.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\GoodFoodProjectMVC.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\GoodFoodProjectMVC.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\css\\index.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\css\\index.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "css/index.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\index.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\css\\login.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\css\\login.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "css/login.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\css\\responsive.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\css\\responsive.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "css/responsive.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\responsive.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\css\\site.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\favicon.ico",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\images\\eating.png",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\eating.png",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "images/eating.png",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\images\\eating.png"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\js\\bootstrap.js",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "js/bootstrap.js",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\js\\javascript.js",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\js\\javascript.js",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "js/javascript.js",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\js\\javascript.js"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\js\\jquery-3.4.1.min.js",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "js/jquery-3.4.1.min.js",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery-3.4.1.min.js"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "GoodFoodProjectMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\",
       "BasePath": "_content/GoodFoodProjectMVC",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
