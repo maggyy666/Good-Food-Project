@@ -1,6 +1,4 @@
-﻿@model List<GoodFoodProjectMVC.Models.Recipes>
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -34,6 +32,55 @@
             width: 100%;
             max-width: 300px; /* Adjust image size as needed */
             height: auto;
+            float: right; /* Align image to the right */
+        }
+
+        /* Style for edit and remove buttons */
+        .edit-btn,
+        .remove-btn {
+            margin-left: 10px;
+        }
+
+        /* Style to align buttons to the right */
+        .recipe-actions {
+            text-align: right;
+            margin-top: 10px; /* Add space between buttons and text */
+        }
+
+        /* Flexbox styles */
+        .main-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+        }
+
+        .recipe-list {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding: 10px; /* Add padding to prevent content from touching the edges */
+        }
+
+        .recipe-item {
+            width: 100%;
+            max-width: 1000px; /* Adjust maximum width as needed */
+            margin-bottom: 30px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden; /* Prevent image from overflowing */
+        }
+
+        .recipe-item:before,
+        .recipe-item:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .recipe-item-text {
+            float: left;
+            width: calc(100% - 320px); /* Adjust width to accommodate image */
         }
     </style>
 </head>
@@ -51,23 +98,33 @@
     </header>
 
     <div class="main-section">
-        <div class="main-section">
-            <div class="recipe-list">
-                <h1>Recipes</h1>
-                <ul>
-                    @foreach (var recipe in Model)
-                    {
-                        <li>
-                            <h2>@recipe.Name</h2>
+        <div class="recipe-list">
+            <h1>Recipes</h1>
+            <div class="recipe-items">
+                @foreach (var recipe in Model)
+                {
+                    <div class="recipe-item">
+                        <div class="recipe-item-text">
+                            <h2 style="font-weight:bold">@recipe.Name</h2>
                             <p>@recipe.Description</p>
-                        </li>
-                    }
-                </ul>
+                            <div class="recipe-actions">
+                                <!-- Edit button -->
+                                <a href="@Url.Action("Edit", "Recipes", new { id = recipe.Id })" class="edit-btn"><i class="fa fa-pencil"></i> Edit</a>
+                                <!-- Remove button -->
+                                <a href="@Url.Action("Remove", "Recipes", new { id = recipe.Id })" class="remove-btn"><i class="fa fa-trash"></i> Remove</a>
+                            </div>
+                        </div>
+                        <div class="recipe-image">
+                            <!-- Display recipe image -->
+                            <img src="@Url.Content("~/Photos/" + recipe.ImageFileName)" alt="@recipe.Name" />
+                        </div>
+                    </div>
+                }
             </div>
         </div>
     </div>
 
-    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px; width:100%; margin:0%;padding:0%;clear:both;position:absolute;left:0%">
+    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge">
         <i class="fa fa-facebook-official w3-hover-opacity "></i>
         <i class="fa fa-instagram w3-hover-opacity"></i>
         <i class="fa fa-snapchat w3-hover-opacity"></i>
