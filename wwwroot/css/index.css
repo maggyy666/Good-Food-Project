@@ -342,6 +342,30 @@ button {
         background-color: #45a049;
     }
 
+.edit-btn,
+.remove-btn {
+    margin-left: 10px;
+}
 
+/* Style to align buttons to the right */
+.recipe-actions {
+    text-align: right;
+    margin-top: 10px; /* Add space between buttons and text */
+}
 
+/* Flexbox styles */
+.recipe-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipe-item {
+    width: 100%;
+    max-width: 800px; /* Adjust maximum width as needed */
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
