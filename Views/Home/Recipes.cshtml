@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -65,18 +66,18 @@
             width: 100%;
             max-width: 1000px; /* Adjust maximum width as needed */
             margin-bottom: 30px;
-            padding: 10px;
+            padding: 20px; /* Add padding for height */
             border: 1px solid #ccc;
             border-radius: 5px;
             overflow: hidden; /* Prevent image from overflowing */
         }
 
-        .recipe-item:before,
-        .recipe-item:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
+            .recipe-item:before,
+            .recipe-item:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
 
         .recipe-item-text {
             float: left;
@@ -106,17 +107,7 @@
                     <div class="recipe-item">
                         <div class="recipe-item-text">
                             <h2 style="font-weight:bold">@recipe.Name</h2>
-                            <p>@recipe.Description</p>
-                            <div class="recipe-actions">
-                                <!-- Edit button -->
-                                <a href="@Url.Action("Edit", "Recipes", new { id = recipe.Id })" class="edit-btn"><i class="fa fa-pencil"></i> Edit</a>
-                                <!-- Remove button -->
-                                <a href="@Url.Action("Remove", "Recipes", new { id = recipe.Id })" class="remove-btn"><i class="fa fa-trash"></i> Remove</a>
-                            </div>
-                        </div>
-                        <div class="recipe-image">
-                            <!-- Display recipe image -->
-                            <img src="@Url.Content("~/Photos/" + recipe.ImageFileName)" alt="@recipe.Name" />
+                            <p>@recipe.Description</p>                           
                         </div>
                     </div>
                 }
@@ -124,7 +115,8 @@
         </div>
     </div>
 
-    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge">
+
+    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px; width:100%; margin:0%;padding:0%;clear:both;position:absolute;left:0%">
         <i class="fa fa-facebook-official w3-hover-opacity "></i>
         <i class="fa fa-instagram w3-hover-opacity"></i>
         <i class="fa fa-snapchat w3-hover-opacity"></i>
