@@ -164,7 +164,7 @@ namespace GoodFoodProjectMVC.Controllers
     List<User> users = new List<User>();
     
     // Przykładowe zapytanie SQL do pobrania użytkowników z bazy danych
-    string query = "SELECT First_Name, Last_Name, Email, Created_At FROM Users";
+    string query = "SELECT First_Name, Last_Name, Email, Password, Created_At FROM Users";
 
     using (SqlConnection connection = new SqlConnection(ConnectionString))
     {
@@ -176,15 +176,18 @@ namespace GoodFoodProjectMVC.Controllers
             {
                 while (reader.Read())
                 {
-                            // Tworzymy nowy obiekt użytkownika i dodajemy go do listy
-                            User user = new User
+                            // Tworzymy nowy obiekt użytkownika i dodajemy go do listY
+                            User user = new User()
                             {
                                 First_Name = reader.GetString(0),
                                 Last_Name = reader.GetString(1),
                                 Email = reader.GetString(2),
-                                Created_At = reader.GetDateTime(3),
-                                Password = reader.GetString(4)
-                    };
+                                Password = reader.GetString(3),
+                                Created_At = reader.GetDateTime(4),
+
+                            };
+                           
+                   
                     users.Add(user);
                 }
             }
