@@ -5,6 +5,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Hosting.Server;
 using Microsoft.Data.SqlClient;
 
+
 namespace GoodFoodProjectMVC.Controllers
 {
     public class HomeController : Controller
@@ -158,9 +159,46 @@ namespace GoodFoodProjectMVC.Controllers
         {
             return View();
         }
+       private List<User> GetUsersFromDatabase()
+{
+    List<User> users = new List<User>();
+    
+    // Przykładowe zapytanie SQL do pobrania użytkowników z bazy danych
+    string query = "SELECT First_Name, Last_Name, Email, Created_At FROM Users";
+
+    using (SqlConnection connection = new SqlConnection(ConnectionString))
+    {
+        connection.Open();
+
+        using (SqlCommand command = new SqlCommand(query, connection))
+        {
+            using (SqlDataReader reader = command.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                            // Tworzymy nowy obiekt użytkownika i dodajemy go do listy
+                            User user = new User
+                            {
+                                First_Name = reader.GetString(0),
+                                Last_Name = reader.GetString(1),
+                                Email = reader.GetString(2),
+                                Created_At = reader.GetDateTime(3),
+                                Password = reader.GetString(4)
+                    };
+                    users.Add(user);
+                }
+            }
+        }
+    }
+
+    return users;
+}
+
         public IActionResult DataBase()
         {
-            return View();
+            var users = GetUsersFromDatabase();
+            
+            return View(users);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
