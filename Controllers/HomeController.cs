@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Hosting.Server;
 using Microsoft.Data.SqlClient;
+using System;
+
 
 
 namespace GoodFoodProjectMVC.Controllers
@@ -34,6 +36,55 @@ namespace GoodFoodProjectMVC.Controllers
             }
             return View(recipe);
         }
+
+        public IActionResult Register()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Register(User user)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    using (SqlConnection connection = new SqlConnection(ConnectionString))
+                    {
+                        connection.Open();
+
+                        string query = "INSERT INTO Users (First_Name, Last_Name, Email, Password, Created_At) VALUES (@First_Name, @Last_Name, @Email, @Password, GETDATE())";
+                        using (SqlCommand command = new SqlCommand(query, connection))
+                        {
+                            command.Parameters.AddWithValue("@First_Name", user.First_Name);
+                            command.Parameters.AddWithValue("@Last_Name", user.Last_Name);
+                            command.Parameters.AddWithValue("@Email", user.Email);
+                            command.Parameters.AddWithValue("@Password", user.Password);
+
+                            int rowsAffected = command.ExecuteNonQuery();
+                            if (rowsAffected > 0)
+                            {
+                                // Pomyślnie dodano użytkownika, przekierowanie do strony głównej
+                                return RedirectToAction("Index");
+                            }
+                            else
+                            {
+                                // W przypadku braku zmian w bazie danych, możemy ustalić, co dalej
+                                ViewBag.ErrorMessage = "Nie udało się dodać użytkownika.";
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Obsługa błędu - przekierowanie do widoku z komunikatem
+                    ViewBag.ErrorMessage = "Wystąpił błąd podczas dodawania użytkownika.";
+                    return View(user);
+                }
+            }
+
+            return View(user);
+        }
+
 
         private readonly ILogger<HomeController> _logger;
 
@@ -139,15 +190,6 @@ namespace GoodFoodProjectMVC.Controllers
             return View();
         }
 
-        public IActionResult Login()
-        {
-            return View();
-        }
-
-        public IActionResult Register()
-        {
-            return View();
-        }
 
         public IActionResult About()
         {
@@ -160,23 +202,29 @@ namespace GoodFoodProjectMVC.Controllers
             return View();
         }
        private List<User> GetUsersFromDatabase()
-{
-    List<User> users = new List<User>();
-    
-    // Przykładowe zapytanie SQL do pobrania użytkowników z bazy danych
-    string query = "SELECT First_Name, Last_Name, Email, Password, Created_At FROM Users";
-
-    using (SqlConnection connection = new SqlConnection(ConnectionString))
-    {
-        connection.Open();
-
-        using (SqlCommand command = new SqlCommand(query, connection))
         {
-            using (SqlDataReader reader = command.ExecuteReader())
+   
+            List<User> users = new List<User>();
+    
+   
+            string query = "SELECT First_Name, Last_Name, Email, Password, Created_At FROM Users";
+
+    
+            using (SqlConnection connection = new SqlConnection(ConnectionString))
+    
             {
-                while (reader.Read())
+       
+                connection.Open();
+
+        
+                using (SqlCommand command = new SqlCommand(query, connection))
+        
                 {
-                            // Tworzymy nowy obiekt użytkownika i dodajemy go do listY
+
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
                             User user = new User()
                             {
                                 First_Name = reader.GetString(0),
@@ -184,16 +232,14 @@ namespace GoodFoodProjectMVC.Controllers
                                 Email = reader.GetString(2),
                                 Password = reader.GetString(3),
                                 Created_At = reader.GetDateTime(4),
-
                             };
-                           
-                   
-                    users.Add(user);
-                }
-            }
+
+
+                            users.Add(user);
+                        }
+                    }
         }
     }
-
     return users;
 }
 
