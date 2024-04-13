@@ -20,6 +20,11 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-
+app.MapControllerRoute(
+    name: "recipeDelete",
+    pattern: "{controller=Home}/{action=Delete}/{id}");
+app.MapControllerRoute(
+    name: "recipeEdit",
+    pattern: "{controller=Recipes}/{action=Edit}/{id?}");
 
 app.Run();
