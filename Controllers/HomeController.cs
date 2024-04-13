@@ -84,7 +84,7 @@ namespace GoodFoodProjectMVC.Controllers
 
             return View(user);
         }
-
+        
 
         private readonly ILogger<HomeController> _logger;
 
@@ -93,7 +93,10 @@ namespace GoodFoodProjectMVC.Controllers
             _logger = logger;
 
         }
-
+        public IActionResult Login()
+        {
+            return View();
+        }
         public IActionResult Index()
         {
             return View();
@@ -130,61 +133,7 @@ namespace GoodFoodProjectMVC.Controllers
             return View(recipes);
         }
 
-        // GET: /Home/Delete/5
-        public IActionResult Delete(int id)
-        {
-            using (SqlConnection connection = new SqlConnection(ConnectionString))
-            {
-                connection.Open();
-                string query = "SELECT Id, Name, Description FROM Recipes WHERE Id = @Id";
-                using (SqlCommand command = new SqlCommand(query, connection))
-                {
-                    command.Parameters.AddWithValue("@Id", id);
-                    using (SqlDataReader reader = command.ExecuteReader())
-                    {
-                        if (reader.Read())
-                        {
-                            Recipes recipe = new Recipes
-                            {
-                                Id = reader.GetInt32(0),
-                                Name = reader.GetString(1),
-                                Description = reader.GetString(2)
-                            };
-                            // Zwróć widok do potwierdzenia usunięcia rekordu
-                            return View(recipe);
-                        }
-                    }
-                }
-            }
-            return NotFound();
-        }
-
-        // POST: /Home/Delete/5
-        [HttpPost, ActionName("Delete")]
-        public IActionResult DeleteConfirmed(int id)
-        {
-            using (SqlConnection connection = new SqlConnection(ConnectionString))
-            {
-                connection.Open();
-                string query = "DELETE FROM Recipes WHERE Id = @Id";
-                using (SqlCommand command = new SqlCommand(query, connection))
-                {
-                    command.Parameters.AddWithValue("@Id", id);
-                    int rowsAffected = command.ExecuteNonQuery();
-                    if (rowsAffected > 0)
-                    {
-                        // Rekord został pomyślnie usunięty, możesz zdecydować, co dalej zrobić
-                        // Możesz przekierować użytkownika na inną stronę lub zaktualizować bieżącą stronę
-                        // W tym przykładzie przekierowujemy użytkownika na stronę z listą przepisów
-                        return RedirectToAction("Recipes");
-                    }
-                }
-            }
-            return NotFound();
-        }
-
-
-
+       
         public IActionResult AddRecipe()
         {
             return View();
@@ -249,6 +198,26 @@ namespace GoodFoodProjectMVC.Controllers
             
             return View(users);
         }
+        public IActionResult DeleteUser(int id)
+        {
+            using (SqlConnection connection = new SqlConnection(ConnectionString))
+            {
+                connection.Open();
+                string query = "DELETE FROM Users WHERE Id = @Id";
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@Id", id);
+                    int rowsAffected = command.ExecuteNonQuery();
+                    if (rowsAffected > 0)
+                    {
+                        // Przekierowanie do akcji wyświetlającej listę użytkowników
+                        return RedirectToAction("DataBase");
+                    }
+                }
+            }
+            return NotFound();
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
