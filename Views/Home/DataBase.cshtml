@@ -64,7 +64,10 @@
                     <td>@user.Password</td>
                     <td>
                         <button class="edit-btn">Edit</button>
-                        <button class="delete-btn">Delete</button>
+                        <form method="post" action="@Url.Action("DeleteUser", "DataBase")">
+                            <input type="hidden" name="id" value="@user.Id" />
+                            <button type="submit" class="delete-btn" onclick="return confirm('Czy na pewno chcesz usunąć użytkownika?')">Delete</button>
+                        </form>
                     </td>
                 </tr>
             }
