@@ -23,8 +23,13 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "recipeDelete",
     pattern: "{controller=Home}/{action=Delete}/{id}");
+
 app.MapControllerRoute(
     name: "recipeEdit",
-    pattern: "{controller=Recipes}/{action=Edit}/{id?}");
+    pattern: "{controller=Admin}/{action=Edit}/{id?}");
+
+app.MapControllerRoute(
+    name: "UserEdit",
+    pattern: "{controller=Admin}/{action=EditUser}/{id?}");
 
 app.Run();
