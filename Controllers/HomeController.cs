@@ -167,7 +167,6 @@ namespace GoodFoodProjectMVC.Controllers
 
         
                 using (SqlCommand command = new SqlCommand(query, connection))
-        
                 {
 
                     using (SqlDataReader reader = command.ExecuteReader())
@@ -224,6 +223,13 @@ namespace GoodFoodProjectMVC.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        public IActionResult EditUser()
+        {
+            return View("~/Views/Admin/EditUser.cshtml");
+        }
+
     }
+
+
 }
 
