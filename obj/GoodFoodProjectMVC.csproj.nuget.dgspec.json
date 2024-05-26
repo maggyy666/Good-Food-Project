@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\GoodFoodProjectMVC.csproj": {}
+    "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\GoodFoodProjectMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\GoodFoodProjectMVC.csproj": {
+    "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\GoodFoodProjectMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\GoodFoodProjectMVC.csproj",
+        "projectUniqueName": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\GoodFoodProjectMVC.csproj",
         "projectName": "GoodFoodProjectMVC",
-        "projectPath": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\GoodFoodProjectMVC.csproj",
+        "projectPath": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\GoodFoodProjectMVC.csproj",
         "packagesPath": "C:\\Users\\kczyz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\obj\\",
+        "outputPath": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\kczyz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -84,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

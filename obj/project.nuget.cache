@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "foqUj/zIomBytvE652YpIK0NI0VE3E6/CTlw/2W+c9zLB0l6IMaDWJ2sLkMcYtZ2q2mbMKlK6Vtoxah0B82TZQ==",
+  "dgSpecHash": "h5l0s1g9I8OyJQyQtp96gNyxXdPZXDOnEIb/Wj66dUQ4zZd7z4e8w7b3SaRdOUose5wQQfIJMaYc1gIqaNsNkw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProject\\GoodFoodProjectMVC\\GoodFoodProjectMVC.csproj",
+  "projectFilePath": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\GoodFoodProjectMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kczyz\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\kczyz\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

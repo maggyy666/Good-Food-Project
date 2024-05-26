@@ -9,57 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GoodFoodProjectMVC
 build_property.RootNamespace = GoodFoodProjectMVC
-build_property.ProjectDir = C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProject\GoodFoodProjectMVC\
+build_property.ProjectDir = C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProject\GoodFoodProjectMVC
+build_property.MSBuildProjectDirectory = C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProject/GoodFoodProjectMVC/Views/Home/About.cshtml]
+[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Admin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Admin/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProject/GoodFoodProjectMVC/Views/Home/AddRecipe.cshtml]
+[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Home/AddRecipe.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRSZWNpcGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProject/GoodFoodProjectMVC/Views/Home/Contact.cshtml]
+[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProject/GoodFoodProjectMVC/Views/Home/Index.cshtml]
+[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Home/DataBase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYXRhQmFzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProject/GoodFoodProjectMVC/Views/Home/Login.cshtml]
+[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProject/GoodFoodProjectMVC/Views/Home/Recipes.cshtml]
+[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Home/Recipes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWNpcGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProject/GoodFoodProjectMVC/Views/Home/Register.cshtml]
+[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Home/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProject/GoodFoodProjectMVC/Views/Shared/Error.cshtml]
+[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProject/GoodFoodProjectMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProject/GoodFoodProjectMVC/Views/_ViewImports.cshtml]
+[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProject/GoodFoodProjectMVC/Views/_ViewStart.cshtml]
+[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProject/GoodFoodProjectMVC/Views/Shared/_Layout.cshtml]
+[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4wjgvdazqm
