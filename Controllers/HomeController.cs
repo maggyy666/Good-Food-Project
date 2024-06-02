@@ -1,235 +1,95 @@
 ﻿using GoodFoodProjectMVC.Models;
+using GoodFoodProjectMVC.Services;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Diagnostics;
-using Microsoft.AspNetCore.Hosting.Server;
-using Microsoft.Data.SqlClient;
 using System;
-
-
+using System.Collections.Generic;
+using System.IO;
+using System.Threading.Tasks;
 
 namespace GoodFoodProjectMVC.Controllers
 {
     public class HomeController : Controller
     {
-        private const string ConnectionString = "Server=localhost\\SQLEXPRESS;Database=goodfood;Integrated Security=True;TrustServerCertificate=True;";
+        private readonly MongoDBService _mongoDBService;
+        private readonly IWebHostEnvironment _hostingEnvironment;
+
+        public HomeController(MongoDBService mongoDBService, IWebHostEnvironment hostingEnvironment)
+        {
+            _mongoDBService = mongoDBService;
+            _hostingEnvironment = hostingEnvironment;
+        }
 
         [HttpPost]
-        public IActionResult AddRecipe(Recipes recipe)
+        public async Task<ActionResult> SubmitData(string title, string description, IFormFile imageFile)
         {
-            if (ModelState.IsValid)
+            string imageBase64 = null;
+            if (imageFile != null && imageFile.Length > 0)
             {
-                using (SqlConnection connection = new SqlConnection(ConnectionString))
+                // Zapisz zdjęcie do folderu "images" w wwwroot
+                var fileName = Path.GetFileName(imageFile.FileName);
+                var filePath = Path.Combine(_hostingEnvironment.WebRootPath, "images", fileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
                 {
-                    connection.Open();
-
-                    string query = "INSERT INTO Recipes (Name, Description) VALUES (@Name, @Description)";
-                    using (SqlCommand command = new SqlCommand(query, connection))
-                    {
-                        command.Parameters.AddWithValue("@Name", recipe.Name);
-                        command.Parameters.AddWithValue("@Description", recipe.Description);
-
-                        command.ExecuteNonQuery();
-                    }
+                    await imageFile.CopyToAsync(stream);
                 }
-                return RedirectToAction("Recipes");
-            }
-            return View(recipe);
-        }
 
-        public IActionResult Register()
-        {
-            return View();
-        }
-        [HttpPost]
-        public IActionResult Register(User user)
-        {
-            if (ModelState.IsValid)
-            {
-                try
+                // Zakoduj zdjęcie jako Base64
+                using (var memoryStream = new MemoryStream())
                 {
-                    using (SqlConnection connection = new SqlConnection(ConnectionString))
-                    {
-                        connection.Open();
-
-                        string query = "INSERT INTO Users (First_Name, Last_Name, Email, Password, Created_At) VALUES (@First_Name, @Last_Name, @Email, @Password, GETDATE())";
-                        using (SqlCommand command = new SqlCommand(query, connection))
-                        {
-                            command.Parameters.AddWithValue("@First_Name", user.First_Name);
-                            command.Parameters.AddWithValue("@Last_Name", user.Last_Name);
-                            command.Parameters.AddWithValue("@Email", user.Email);
-                            command.Parameters.AddWithValue("@Password", user.Password);
-
-                            int rowsAffected = command.ExecuteNonQuery();
-                            if (rowsAffected > 0)
-                            {
-                                // Pomyślnie dodano użytkownika, przekierowanie do strony głównej
-                                return RedirectToAction("Index");
-                            }
-                            else
-                            {
-                                // W przypadku braku zmian w bazie danych, możemy ustalić, co dalej
-                                ViewBag.ErrorMessage = "Nie udało się dodać użytkownika.";
-                            }
-                        }
-                    }
-                }
-                catch (Exception ex)
-                {
-                    // Obsługa błędu - przekierowanie do widoku z komunikatem
-                    ViewBag.ErrorMessage = "Wystąpił błąd podczas dodawania użytkownika.";
-                    return View(user);
+                    await imageFile.CopyToAsync(memoryStream);
+                    var imageBytes = memoryStream.ToArray();
+                    imageBase64 = Convert.ToBase64String(imageBytes);
                 }
             }
 
-            return View(user);
-        }
-        
-
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-
-        }
-        public IActionResult Login()
-        {
-            return View();
-        }
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [HttpGet]
-        public IActionResult Recipes()
-        {
-            List<Recipes> recipes = new List<Recipes>();
-            using (SqlConnection connection = new SqlConnection(ConnectionString))
+            var formData = new FormData { Title = title, Description = description, ImageBase64 = imageBase64 };
+            try
             {
-                connection.Open();
-                string query = "SELECT Name, Description FROM Recipes";
-                using (SqlCommand command = new SqlCommand(query, connection))
-                {
-                    using (SqlDataReader reader = command.ExecuteReader())
-                    {
-                        while (reader.Read())
-                        {
-                            recipes.Add(new Recipes
-                            {
-                                Name = reader.GetString(0),
-                                Description = reader.GetString(1)
-                            });
-                        }
-                    }
-                }
+                await _mongoDBService.InsertDataAsync(formData);
+                ViewBag.Message = "Data saved to MongoDB: " + title + ", Description: " + description;
             }
-            return View(recipes);
+            catch (Exception ex)
+            {
+                ViewBag.Message = "Error: " + ex.Message;
+            }
+            return View("Index");
         }
 
-       
         public IActionResult AddRecipe()
         {
             return View();
         }
 
-
-        public IActionResult About()
+        public IActionResult Index()
         {
             return View();
         }
-   
 
-        public IActionResult Contact()
+        public async Task<IActionResult> Recipes()
         {
-            return View();
-        }
-       private List<User> GetUsersFromDatabase()
-        {
-   
-            List<User> users = new List<User>();
-    
-   
-            string query = "SELECT First_Name, Last_Name, Email, Password, Created_At FROM Users";
-
-    
-            using (SqlConnection connection = new SqlConnection(ConnectionString))
-    
+            List<FormData> recipes;
+            try
             {
-       
-                connection.Open();
-
-        
-                using (SqlCommand command = new SqlCommand(query, connection))
-                {
-
-                    using (SqlDataReader reader = command.ExecuteReader())
-                    {
-                        while (reader.Read())
-                        {
-                            User user = new User()
-                            {
-                                First_Name = reader.GetString(0),
-                                Last_Name = reader.GetString(1),
-                                Email = reader.GetString(2),
-                                Password = reader.GetString(3),
-                                Created_At = reader.GetDateTime(4),
-                            };
-
-
-                            users.Add(user);
-                        }
-                    }
-        }
-    }
-    return users;
-}
-
-        public IActionResult DataBase()
-        {
-            var users = GetUsersFromDatabase();
-            
-            return View(users);
-        }
-        public IActionResult DeleteUser(int id)
-        {
-            using (SqlConnection connection = new SqlConnection(ConnectionString))
-            {
-                connection.Open();
-                string query = "DELETE FROM Users WHERE Id = @Id";
-                using (SqlCommand command = new SqlCommand(query, connection))
-                {
-                    command.Parameters.AddWithValue("@Id", id);
-                    int rowsAffected = command.ExecuteNonQuery();
-                    if (rowsAffected > 0)
-                    {
-                        // Przekierowanie do akcji wyświetlającej listę użytkowników
-                        return RedirectToAction("DataBase");
-                    }
-                }
+                recipes = await _mongoDBService.GetAllRecipesAsync();
             }
-            return NotFound();
+            catch (Exception ex)
+            {
+                ViewBag.Message = "Error: " + ex.Message;
+                recipes = new List<FormData>();
+            }
+            return View(recipes);
         }
 
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        public async Task<IActionResult> Recipe(string id)
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            var recipe = await _mongoDBService.GetRecipeByIdAsync(id);
+            if (recipe == null)
+            {
+                return NotFound($"Recipe with id {id} not found.");
+            }
+            return View("BaseRecipe", recipe);
         }
-        public IActionResult EditUser()
-        {
-            return View("~/Views/Admin/EditUser.cshtml");
-        }
-
     }
-
-
 }
-
