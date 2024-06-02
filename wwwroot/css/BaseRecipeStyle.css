@@ -1,4 +1,4 @@
-body, html {
+﻿body, html {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -74,7 +74,7 @@ body, html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 100%; /* Increase width */
     margin-bottom: 30px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -103,7 +103,7 @@ body, html {
     white-space: nowrap; /* Prevent line breaks */
     overflow: hidden; /* Hide overflowed content */
     text-overflow: ellipsis; /* Add ellipsis for overflowed content */
-    max-width: 80%; /* Limit the width to ensure the text doesn't overflow */
+    max-width: 100%; /* Ensure title doesn't overflow */
 }
 
 .recipe-description {
@@ -113,7 +113,11 @@ body, html {
     white-space: nowrap; /* Prevent line breaks */
     overflow: hidden; /* Hide overflowed content */
     text-overflow: ellipsis; /* Add ellipsis for overflowed content */
-    max-width: 100%; /* Limit the width to ensure the text doesn't overflow */
+    display: -webkit-box; /* Display as webkit box for line clamping */
+    -webkit-line-clamp: 4; /* Show up to 4 lines */
+    -webkit-box-orient: vertical; /* Vertical orientation for the box */
+    max-height:100%;
+
 }
 
 .recipe-image {
