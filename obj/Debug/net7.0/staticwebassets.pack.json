@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\GoodFoodProjectMVC.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\css\\BaseRecipeStyle.css",
+      "PackagePath": "staticwebassets\\css\\BaseRecipeStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\css\\Recipes.css",
+      "PackagePath": "staticwebassets\\css\\Recipes.css"
+    },
+    {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\css\\SubmitRecipeStyle.css",
+      "PackagePath": "staticwebassets\\css\\SubmitRecipeStyle.css"
+    },
+    {
       "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },
@@ -17,16 +29,44 @@
       "PackagePath": "staticwebassets\\css\\responsive.css"
     },
     {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\css\\test.css",
+      "PackagePath": "staticwebassets\\css\\test.css"
     },
     {
       "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\Eoz-y2nWMAIE-dz.jpg",
+      "PackagePath": "staticwebassets\\images\\Eoz-y2nWMAIE-dz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\Espaguetis_carbonara.jpg",
+      "PackagePath": "staticwebassets\\images\\Espaguetis_carbonara.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\IMG_5757.jpg",
+      "PackagePath": "staticwebassets\\images\\IMG_5757.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\Najlepsza-domowa-pizza1.jpg",
+      "PackagePath": "staticwebassets\\images\\Najlepsza-domowa-pizza1.jpg"
+    },
+    {
       "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\eating.png",
       "PackagePath": "staticwebassets\\images\\eating.png"
+    },
+    {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\efe28e0d-d9b0-420b-86c5-0b96945efc1e_negro_cat.gif",
+      "PackagePath": "staticwebassets\\images\\efe28e0d-d9b0-420b-86c5-0b96945efc1e_negro_cat.gif"
+    },
+    {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\layers-grey.png",
+      "PackagePath": "staticwebassets\\images\\layers-grey.png"
+    },
+    {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\spaghetti_bolognese_01.jpg",
+      "PackagePath": "staticwebassets\\images\\spaghetti_bolognese_01.jpg"
     },
     {
       "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\js\\bootstrap.js",
