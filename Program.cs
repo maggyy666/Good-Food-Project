@@ -1,7 +1,17 @@
+using GoodFoodProjectMVC.Models;
+using GoodFoodProjectMVC.Services;
+using MongoDB.Driver;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Configure MongoDB connection
+builder.Services.AddSingleton<IMongoClient>(s =>
+    new MongoClient(builder.Configuration.GetValue<string>("MongoDB:ConnectionString")));
+
+builder.Services.AddSingleton<MongoDBService>();
 
 var app = builder.Build();
 
@@ -19,17 +29,5 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
-app.MapControllerRoute(
-    name: "recipeDelete",
-    pattern: "{controller=Home}/{action=Delete}/{id}");
-
-app.MapControllerRoute(
-    name: "recipeEdit",
-    pattern: "{controller=Admin}/{action=Edit}/{id?}");
-
-app.MapControllerRoute(
-    name: "UserEdit",
-    pattern: "{controller=Admin}/{action=EditUser}/{id?}");
 
 app.Run();
