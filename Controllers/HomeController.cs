@@ -21,34 +21,43 @@ namespace GoodFoodProjectMVC.Controllers
             _hostingEnvironment = hostingEnvironment;
         }
 
-        [HttpPost]
-        public async Task<ActionResult> SubmitData(string title, string description, IFormFile imageFile)
+        [HttpGet]
+        public IActionResult Login()
         {
-            string imageBase64 = null;
-            if (imageFile != null && imageFile.Length > 0)
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> LoginUser(string username, string password)
+        {
+            var user = await _mongoDBService.GetUserByUsernameAndPasswordAsync(username, password);
+            if (user != null)
             {
-                // Zapisz zdjęcie do folderu "images" w wwwroot
-                var fileName = Path.GetFileName(imageFile.FileName);
-                var filePath = Path.Combine(_hostingEnvironment.WebRootPath, "images", fileName);
-                using (var stream = new FileStream(filePath, FileMode.Create))
-                {
-                    await imageFile.CopyToAsync(stream);
-                }
-
-                // Zakoduj zdjęcie jako Base64
-                using (var memoryStream = new MemoryStream())
-                {
-                    await imageFile.CopyToAsync(memoryStream);
-                    var imageBytes = memoryStream.ToArray();
-                    imageBase64 = Convert.ToBase64String(imageBytes);
-                }
+                HttpContext.Session.SetString("Username", user.Username);
+                ViewBag.Message = "Logged in as " + user.Username;
+                return RedirectToAction("Index");
             }
+            else
+            {
+                ViewBag.Message = "Invalid username or password";
+                return View("Login");
+            }
+        }
 
-            var formData = new FormData { Title = title, Description = description, ImageBase64 = imageBase64 };
+        [HttpGet]
+        public IActionResult Register()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> RegisterUser(string username, string password)
+        {
+            var user = new User { Username = username, Password = password };
             try
             {
-                await _mongoDBService.InsertDataAsync(formData);
-                ViewBag.Message = "Data saved to MongoDB: " + title + ", Description: " + description;
+                await _mongoDBService.InsertUserAsync(user);
+                ViewBag.Message = "User registered: " + username;
             }
             catch (Exception ex)
             {
@@ -90,6 +99,42 @@ namespace GoodFoodProjectMVC.Controllers
                 return NotFound($"Recipe with id {id} not found.");
             }
             return View("BaseRecipe", recipe);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SubmitData(string title, string description, IFormFile imageFile)
+        {
+            string imageBase64 = null;
+            if (imageFile != null && imageFile.Length > 0)
+            {
+                // Save the image to the "images" folder in wwwroot
+                var fileName = Path.GetFileName(imageFile.FileName);
+                var filePath = Path.Combine(_hostingEnvironment.WebRootPath, "images", fileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await imageFile.CopyToAsync(stream);
+                }
+
+                // Encode the image as Base64
+                using (var memoryStream = new MemoryStream())
+                {
+                    await imageFile.CopyToAsync(memoryStream);
+                    var imageBytes = memoryStream.ToArray();
+                    imageBase64 = Convert.ToBase64String(imageBytes);
+                }
+            }
+
+            var formData = new FormData { Title = title, Description = description, ImageBase64 = imageBase64 };
+            try
+            {
+                await _mongoDBService.InsertDataAsync(formData);
+                ViewBag.Message = "Data saved to MongoDB: " + title + ", Description: " + description;
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Message = "Error: " + ex.Message;
+            }
+            return View("Index");
         }
     }
 }
