@@ -18,14 +18,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Admin/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Admin/EditUser.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFVzZXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,12 +26,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRSZWNpcGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Home/Contact.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Home/BaseRecipe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCYXNlUmVjaXBlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Home/DataBase.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYXRhQmFzZS5jc2h0bWw=
+[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Home/Index.cshtml]

@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\Recipes.css"
     },
     {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\css\\RegisterStyle.css",
+      "PackagePath": "staticwebassets\\css\\RegisterStyle.css"
+    },
+    {
       "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\css\\SubmitRecipeStyle.css",
       "PackagePath": "staticwebassets\\css\\SubmitRecipeStyle.css"
     },
@@ -27,6 +31,10 @@
     {
       "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\css\\responsive.css",
       "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\css\\test.css",
