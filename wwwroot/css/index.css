@@ -131,34 +131,37 @@ body, html {
     padding: 20px 0;
     text-align: center;
     width: 100%;
-    bottom: 0;
     position: fixed;
-    z-index: 1000;
+    bottom: 0;
     box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
 }
 
-    .footer .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 20px;
-        flex-wrap: wrap;
-    }
-
-.footer-content {
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.footer-icons a {
+.footer-icons {
+    margin-bottom: 10px;
+}
+
+.footer-icons i {
     margin: 0 10px;
     color: #ffcc00;
     transition: color 0.3s;
-    text-decoration: none;
     font-size: 1.5em;
 }
 
-    .footer-icons a:hover {
-        color: #ffd966;
-    }
+.footer-icons i:hover {
+    color: #ffd966;
+}
+
+.footer p {
+    margin: 10px 0 0;
+    color: #ffcc00;
+}
+
