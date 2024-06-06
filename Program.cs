@@ -1,4 +1,3 @@
-using GoodFoodProjectMVC.Models;
 using GoodFoodProjectMVC.Services;
 using MongoDB.Driver;
 
@@ -6,6 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSession();  // Add this line
 
 // Configure MongoDB connection
 builder.Services.AddSingleton<IMongoClient>(s =>
@@ -23,6 +23,7 @@ if (!app.Environment.IsDevelopment())
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseSession();  // Add this line
 
 app.UseAuthorization();
 
