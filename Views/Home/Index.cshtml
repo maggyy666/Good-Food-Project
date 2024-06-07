@@ -1,107 +1,45 @@
 ﻿<!DOCTYPE html>
-
 <html lang="en">
-
-
 <head>
-    <title>Page Title</title>
     <meta charset="UTF-8">
-    <link href="css/index.css" rel="stylesheet" />
-    <link href="images" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link href="js/javascript.js" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    @*
-    <link href="css/responsive.css" rel="stylesheet" />*@
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoodFood - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="~/css/site.css" rel="stylesheet" />
 </head>
-
-
 <body>
-
-    <div class="full">
-
-        @*<header class="header w3-container w3-padding-16" style="width:100%; margin:0; padding:0; position:absolute; left:0; background-color: black; color: white;">
-            <ul class="header-menu" style="list-style: none; margin: 0; padding: 0; display: flex; align-items: center;">
-                <li style="margin-right: auto;"><a style="font-weight: bolder; font-size: 2vh; color: white;">GoodFood</a></li>
-                <li style="margin-left: 20px;">@Html.ActionLink("Home", "Index", "Home")</li>
-                <li style="margin-left: 20px;">@Html.ActionLink("Recipes", "Recipes", "Home")</li>
-                <li style="margin-left: 20px;">@Html.ActionLink("Privacy", "Privacy", "Home")</li>
-                <li style="margin-left: 20px;">@Html.ActionLink("Add", "AddRecipe", "Home")</li>
-            </ul>
-            <div class="mobile-menu">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a class="navbar-title" href="#">GOODFOODMVC</a>
+                <ul class="navbar-menu">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Recipes", "Recipes", "Home")</li>
+                    <li>@Html.ActionLink("Add Recipe", "AddRecipe", "Home")</li>
+                    <li>@Html.ActionLink("Join Us", "Register", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink(User.Identity.IsAuthenticated ? User.Identity.Name : "Guest", "Profile", "Home")</li>
+                </ul>
             </div>
-        </header>*@
-        @*<header class="w3 container w3-teal w3-padding-16" style="width:100%; margin:0; padding:0;position:absolute;left:0;">
-            <h1>Header</h1>
-        </header>*@
-        <header class="header">
-            <ul class="header-menu">
-                <li><a class="header-logo">GoodFood</a></li>
-
-                <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                <li>@Html.ActionLink("Recipes", "Recipes", "Home")</li>         
-                <li>@Html.ActionLink("Add Recipe", "AddRecipe","Home")</li>
-                <li>@Html.ActionLink("Join Us","Register","Home")</li>
-                <li>@Html.ActionLink("About","About","Home")</li>
-                <li>@Html.ActionLink("DataBase","DataBase","Home")</li>
-
-            </ul>
-      
-
-        </header>
-  
-
-
-
-
-    </div>
-
-
-    <div class="main-section">
-        <div class="left-section">
-            <div class="header-text">
-                <span style="font-weight:bold;font-size:6vh">Enjoy your meals, with us!</span>
+        </nav>
+    </header>
+    <main class="main-content">
+        <div class="content-wrapper">
+            <section class="welcome-section">
+                <h2>Enjoy your meals,</h2>
+                <h2>with us!</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis convallis tellus id interdum velit laoreet. Duis accumsan sit amet nulla.</p>
+                <a href="@Url.Action("Register", "Home")" class="join-link">Join Us!</a>
+            </section>
+            <div class="image-section">
+                <img src="~/images/eating.png" alt="Dining Image" class="dining-image" />
             </div>
-            <div>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Convallis convallis tellus id interdum velit laoreet.
-                Dui accumsan sit amet nulla.
-            </div>
-            <button style="font-weight:bold"class="join-button" onclick="location.href='@Url.Action("Login", "Home")'">Join us, today!</button>
-
         </div>
-
-        <div class="right-section">
-            <!-- Miejsce na zdjęcie -->
-            <img src="images/eating.png" style="max-width:100%;height:auto; " alt="Zdjęcie" class="header-image;">
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <p>Powered by XD | &copy; 2024</p>
         </div>
-    </div>
-
-
-    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px; width:100%; margin:0%;padding:0%;clear:both;position:absolute;left:0%">
-        <i class="fa fa-facebook-official w3-hover-opacity "></i>
-        <i class="fa fa-instagram w3-hover-opacity"></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-twitter w3-hover-opacity"></i>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
-        <p class="w3-medium">Powered by XD | &copy; 2023</p>
     </footer>
-
 </body>
-
 </html>
-
-
-
-
