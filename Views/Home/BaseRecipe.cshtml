@@ -1,0 +1,50 @@
+﻿@model GoodFoodProjectMVC.Models.FormData
+
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@Model.Title - GoodFood</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/BaseRecipeStyle.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a class="navbar-title" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bold">GOODFOODMVC</a>
+
+                <ul class="navbar-menu">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Recipes", "Recipes", "Home")</li>
+                    <li>@Html.ActionLink("Add Recipe", "AddRecipe", "Home")</li>
+                    <li>@Html.ActionLink("Join Us", "Register", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="recipe-content">
+            <div class="recipe-text">
+                <h1 class="recipe-title">@Model.Title</h1>
+                <div class="recipe-description">@Html.Raw(Model.Description.Replace("\n", "<br />"))</div>
+            </div>
+            @if (!string.IsNullOrEmpty(Model.ImageBase64))
+            {
+                <div class="recipe-image-wrapper">
+                    <img class="recipe-image" src="data:image/png;base64,@Model.ImageBase64" alt="Recipe Image">
+                </div>
+            }
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 GoodFood. All rights reserved.</p>
+    </footer>
+</body>
+</html>
