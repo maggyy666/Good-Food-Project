@@ -1,130 +1,62 @@
-﻿
+﻿@model IEnumerable<GoodFoodProjectMVC.Models.FormData>
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>GoodFood Recipes</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="~/css/index.css" rel="stylesheet" />
-    <link href="~/images" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link href="~/js/javascript.js" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- CSS styles -->
-    <style>
-        /* Add your custom styles here */
-        .recipe-header {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        .recipe-description {
-            font-size: 16px;
-            margin-bottom: 20px;
-        }
-
-        .recipe-image {
-            width: 100%;
-            max-width: 300px; /* Adjust image size as needed */
-            height: auto;
-            float: right; /* Align image to the right */
-        }
-
-        /* Style for edit and remove buttons */
-        .edit-btn,
-        .remove-btn {
-            margin-left: 10px;
-        }
-
-        /* Style to align buttons to the right */
-        .recipe-actions {
-            text-align: right;
-            margin-top: 10px; /* Add space between buttons and text */
-        }
-
-        /* Flexbox styles */
-        .main-section {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 100%;
-        }
-
-        .recipe-list {
-            flex-grow: 1;
-            overflow-y: auto;
-            padding: 10px; /* Add padding to prevent content from touching the edges */
-        }
-
-        .recipe-item {
-            width: 100%;
-            max-width: 1000px; /* Adjust maximum width as needed */
-            margin-bottom: 30px;
-            padding: 20px; /* Add padding for height */
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            overflow: hidden; /* Prevent image from overflowing */
-        }
-
-            .recipe-item:before,
-            .recipe-item:after {
-                content: "";
-                display: table;
-                clear: both;
-            }
-
-        .recipe-item-text {
-            float: left;
-            width: calc(100% - 320px); /* Adjust width to accommodate image */
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <link rel="stylesheet" href="~/css/Recipes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-
 <body>
-    <header class="header">
-        <ul class="header-menu">
-            <li><a class="header-logo">GoodFood</a></li>
-            <li>@Html.ActionLink("Home", "Index", "Home")</li>
-            <li>@Html.ActionLink("Recipes", "Recipes", "Home")</li>
-            <li>@Html.ActionLink("Add Recipe", "AddRecipe","Home")</li>
-            <li>@Html.ActionLink("Join Us","Register","Home")</li>
-            <li>@Html.ActionLink("About","About","Home")</li>
-        </ul>
-    </header>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-title">My Recipes</a>
+            <ul class="navbar-menu">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("Recipes", "Recipes", "Home")</li>
+                <li>@Html.ActionLink("Add Recipe", "AddRecipe", "Home")</li>
+                <li>@Html.ActionLink("Join Us", "Register", "Home")</li>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+                <li>@Html.ActionLink(User.Identity.IsAuthenticated ? User.Identity.Name : "Guest", "Profile", "Home")</li>
+            </ul>
+        </div>
+    </nav>
 
-    <div class="main-section">
-        <div class="recipe-list">
-            <h1>Recipes</h1>
-            <div class="recipe-items">
-                @foreach (var recipe in Model)
-                {
-                    <div class="recipe-item">
-                        <div class="recipe-item-text">
-                            <h2 style="font-weight:bold">@recipe.Name</h2>
-                            <p>@recipe.Description</p>                           
+    <div class="main-content">
+        <div class="content-wrapper">
+            @foreach (var recipe in Model)
+            {
+                <a href="@Url.Action("Recipe", "Home", new { id = recipe.Id })" class="recipe-card">
+                    <div class="recipe-image-container">
+                        @if (!string.IsNullOrEmpty(recipe.ImageBase64))
+                        {
+                            <img class="recipe-image" src="data:image/png;base64,@recipe.ImageBase64" alt="Recipe Image">
+                        }
+                    </div>
+                    <div class="recipe-info">
+                        <div class="recipe-title">
+                            @recipe.Title
+                        </div>
+                        <div class="recipe-description">
+                            <pre>@recipe.Description</pre>
                         </div>
                     </div>
-                }
-            </div>
+                </a>
+            }
         </div>
     </div>
 
-
-    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px; width:100%; margin:0%;padding:0%;clear:both;position:absolute;left:0%">
-        <i class="fa fa-facebook-official w3-hover-opacity "></i>
-        <i class="fa fa-instagram w3-hover-opacity"></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-twitter w3-hover-opacity"></i>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
-        <p class="w3-medium">Powered by XD | &copy; 2023</p>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <p>&copy; 2023 My Recipes. All rights reserved.</p>
+        </div>
     </footer>
 </body>
-
 </html>
