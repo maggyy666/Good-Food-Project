@@ -37,6 +37,24 @@ namespace GoodFoodProjectMVC.Services
             await _formDataCollection.InsertOneAsync(formData);
         }
 
+        public async Task UpdateRecipeAsync(FormData updatedRecipe)
+        {
+            var filter = Builders<FormData>.Filter.Eq("_id", new ObjectId(updatedRecipe.Id));
+            var update = Builders<FormData>.Update
+                .Set(r => r.Title, updatedRecipe.Title)
+                .Set(r => r.Description, updatedRecipe.Description)
+                .Set(r => r.ImageBase64, updatedRecipe.ImageBase64);
+
+            await _formDataCollection.UpdateOneAsync(filter, update);
+        }
+
+        public async Task DeleteRecipeByIdAsync(string id)
+        {
+            var objectId = new ObjectId(id);
+            var filter = Builders<FormData>.Filter.Eq("_id", objectId);
+            await _formDataCollection.DeleteOneAsync(filter);
+        }
+
         // User Methods
         public async Task<List<User>> GetAllUsersAsync()
         {
