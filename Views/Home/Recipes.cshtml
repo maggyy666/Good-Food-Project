@@ -1,5 +1,11 @@
 ﻿@model IEnumerable<GoodFoodProjectMVC.Models.FormData>
-
+@{
+    var username = ViewBag.Username as string;
+    if (string.IsNullOrEmpty(username))
+    {
+        username = "Guest";
+    }
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,8 +24,16 @@
                 <li>@Html.ActionLink("Recipes", "Recipes", "Home")</li>
                 <li>@Html.ActionLink("Add Recipe", "AddRecipe", "Home")</li>
                 <li>@Html.ActionLink("Join Us", "Register", "Home")</li>
-                <li>@Html.ActionLink("About", "About", "Home")</li>
-                <li>@Html.ActionLink(User.Identity.IsAuthenticated ? User.Identity.Name : "Guest", "Profile", "Home")</li>
+                <li>
+                    @if (username == "Guest")
+                    {
+                        @Html.ActionLink("Guest", "Login", "Home")
+                    }
+                    else
+                    {
+                        @Html.ActionLink(username, "Profile", "Home")
+                    }
+                </li>
             </ul>
         </div>
     </nav>
