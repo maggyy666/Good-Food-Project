@@ -1,9 +1,5 @@
 ﻿@model GoodFoodProjectMVC.Models.FormData
 
-@{
-    ViewData["Title"] = Model.Title;
-}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,6 +37,13 @@
                     <img class="recipe-image" src="data:image/png;base64,@Model.ImageBase64" alt="Recipe Image">
                 </div>
             }
+        </div>
+        <div class="recipe-actions">
+            <a href="@Url.Action("EditRecipe", "Home", new { id = Model.Id })" class="btn btn-edit">Edit</a>
+            <form asp-action="DeleteRecipe" method="post" style="display:inline;">
+                <input type="hidden" name="id" value="@Model.Id" />
+                <button type="submit" class="btn btn-delete">Remove</button>
+            </form>
         </div>
     </main>
     <footer>
