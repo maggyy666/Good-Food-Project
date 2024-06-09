@@ -4,16 +4,17 @@
 The GoodFood Project is a community-driven recipe sharing platform built using the ASP.NET MVC (Model-View-Controller) framework. This architecture separates the application logic into three interconnected components: the Model (data and business logic), the View (user interface), and the Controller (handles user input and interacts with the model and view). The platform leverages MongoDB for data storage, making it highly scalable and efficient for handling large amounts of recipe data.
 ## Features
 - **User Recipe Submission:** Any logged-in user can contribute their culinary creations by submitting recipes through the application.
-- **Image Handling: Users can upload images of their recipes. Images are encoded in Base64 format and stored directly in the MongoDB database, ensuring that the images are always accessible and easy to manage.
-- **Dynamic Content Display: The application dynamically presents recipe data stored in the MongoDB database. This ensures that users always see the most up-to-date content.
-- **Recipe Details and Listing: Recipes are displayed dynamically on the Recipes page, where each entry links to a detailed view showing the full recipe and image.
-- **User Authentication: The platform supports user registration and login, allowing users to securely create accounts, submit recipes, and interact with the content.
-- **Recipe Management: Users can edit or delete their recipes. The edit feature pre-fills the form with existing recipe details, making it easy for users to update their submissions.
-- **Responsive Design: The platform provides a seamless user experience across various devices and screen sizes, ensuring accessibility for all users.
+- **Image Handling:** Users can upload images of their recipes. Images are encoded in Base64 format and stored directly in the MongoDB database, ensuring that the images are always accessible and easy to manage.
+- **Dynamic Content Display:** The application dynamically presents recipe data stored in the MongoDB database. This ensures that users always see the most up-to-date content.
+- **Recipe Details and Listing:** Recipes are displayed dynamically on the Recipes page, where each entry links to a detailed view showing the full recipe and image.
+- **User Authentication:** The platform supports user registration and login, allowing users to securely create accounts, submit recipes, and interact with the content.
+- **Recipe Management:** Users can edit or delete their recipes. The edit feature pre-fills the form with existing recipe details, making it easy for users to update their submissions.
+- **Responsive Design:** The platform provides a seamless user experience across various devices and screen sizes, ensuring accessibility for all users.
+
 ## Requirements
-- **Development Environment: Visual Studio Community edition (or higher) for project development.
-- **Framework: .NET Framework for application development.
-- **Database: MongoDB for storing recipe data.
+- **Development Environment:** Visual Studio Community edition (or higher) for project development.
+- **Framework:** .NET Framework for application development.
+- **Database:** MongoDB for storing recipe data.
 
 ## Installation
 1. Clone the repository to your local machine.
