@@ -164,9 +164,11 @@ namespace GoodFoodProjectMVC.Controllers
         public async Task<IActionResult> DeleteRecipe(string id)
         {
             var username = HttpContext.Session.GetString("Username");
+            if (string.IsNullOrEmpty(username))
             {
                 return RedirectToAction("Login");
             }
+
             try
             {
                 await _mongoDBService.DeleteRecipeByIdAsync(id);
@@ -179,6 +181,7 @@ namespace GoodFoodProjectMVC.Controllers
 
             return RedirectToAction("Recipes");
         }
+
 
         public IActionResult Index()
         {
