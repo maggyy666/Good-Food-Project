@@ -1,82 +1,115 @@
-﻿body {
+﻿/* General Styles */
+body, html {
     margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-header {
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
-}
-
-nav {
+/* Navbar Styles */
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0;
+    background-color: #000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
-    nav .logo {
-        font-size: 24px;
-        font-weight: bold;
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar-title {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+    .navbar-menu li {
+        flex: 1;
+        text-align: center;
     }
 
-    nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: space-between;
-        width: 50%;
-    }
-
-        nav ul li {
-            flex: 1;
-            text-align: center;
+        .navbar-menu li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+            padding: 10px 15px;
         }
 
-            nav ul li a {
-                color: white;
-                text-decoration: none;
-                font-size: 18px;
-                transition: color 0.3s;
+            .navbar-menu li a:hover {
+                color: grey;
             }
 
-                nav ul li a:hover {
-                    color: gray;
-                }
-
-main {
-    padding: 20px;
+/* Main Content Styles */
+.main-content {
+    margin-top: 70px; /* To accommodate the fixed navbar */
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - 80px); /* Adjusted height for the footer */
+    flex-grow: 1;
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: calc(100vh - 70px - 60px); /* Ensure minimum height excluding navbar and footer */
 }
 
 .content-wrapper {
     display: flex;
-    justify-content: space-between;
-    align-items: center; /* Center align items vertically */
-    width: 80%;
-    max-width: 1200px;
-    margin-top: 20px;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100%;
+    max-width: 800px; /* Limit the width of the content */
+    min-height: 100%; /* Ensure minimum height */
 }
 
-.form-section, .info-section {
-    width: 45%;
+/* Form Section */
+.form-section {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    box-sizing: border-box;
 }
 
 .form-container {
-    width: 100%;
-    background-color: #f9f9f9;
-    border: 1px solid #e0e0e0;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .form-title {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
     text-align: center;
@@ -84,69 +117,90 @@ main {
 
 .form-group {
     margin-bottom: 20px;
+    width: 100%;
 }
 
     .form-group label {
-        display: block;
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 5px;
     }
 
-.form-control {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
+    .form-group input, .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
 
-textarea.form-control {
-    resize: vertical;
-}
+    .form-group textarea {
+        height: 150px;
+        resize: vertical;
+    }
 
 .btn-submit {
-    background-color: black;
-    color: white;
-    border: none;
     padding: 10px 20px;
-    font-size: 18px;
+    border: none;
+    background-color: #000;
+    color: white;
+    font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
-    display: block;
     width: 100%;
-    box-sizing: border-box;
+    text-align: center;
 }
 
     .btn-submit:hover {
-        background-color: gray;
+        background-color: #444;
     }
 
-.alert-message {
-    background-color: #d9edf7;
-    color: #31708f;
-    padding: 10px;
-    border: 1px solid #bce8f1;
-    border-radius: 5px;
+.current-image {
     margin-top: 20px;
     text-align: center;
 }
 
-.info-title {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 20px;
+.current-image-preview {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.info-subtitle {
-    font-size: 18px;
-    line-height: 1.6;
-}
-
-footer {
+/* Footer Styles */
+.footer {
     background-color: black;
     color: white;
+    padding: 20px 0;
     text-align: center;
-    padding: 10px 0;
     width: 100%;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.footer-icons {
+    margin-bottom: 10px;
+}
+
+    .footer-icons i {
+        margin: 0 10px;
+        color: white;
+        transition: color 0.3s;
+        font-size: 1.5em;
+    }
+
+        .footer-icons i:hover {
+            color: grey;
+        }
+
+.footer p {
+    margin: 10px 0 0;
+    color: white;
 }
