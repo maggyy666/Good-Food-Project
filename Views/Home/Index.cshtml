@@ -1,11 +1,15 @@
-﻿<!DOCTYPE html>
+﻿@{
+    var username = ViewBag.Username as string;
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GoodFood - Home</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="~/css/site.css?v=@DateTime.Now.Ticks" rel="stylesheet" />
 </head>
 <body>
     <header>
@@ -17,8 +21,16 @@
                     <li>@Html.ActionLink("Recipes", "Recipes", "Home")</li>
                     <li>@Html.ActionLink("Add Recipe", "AddRecipe", "Home")</li>
                     <li>@Html.ActionLink("Join Us", "Register", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink(User.Identity.IsAuthenticated ? User.Identity.Name : "Guest", "Profile", "Home")</li>
+                    <li>
+                        @if (username == "Guest")
+                        {
+                            @Html.ActionLink("Guest", "Login", "Home")
+                        }
+                        else
+                        {
+                            @Html.ActionLink(username, "Profile", "Home")
+                        }
+                    </li>
                 </ul>
             </div>
         </nav>
