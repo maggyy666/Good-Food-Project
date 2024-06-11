@@ -1,11 +1,19 @@
-﻿<!DOCTYPE html>
+﻿@model GoodFoodProjectMVC.Models.FormData
+@{
+    var username = ViewBag.Username as string;
+    if (string.IsNullOrEmpty(username))
+    {
+        username = "Guest";
+    }
+}
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Submit a Recipe - GoodFood</title>
+    <title>@(Model == null ? "Add Recipe" : "Edit Recipe") - GoodFood</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link href="~/css/RegisterStyle.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/SubmitRecipeStyle.css" />
 </head>
 <body>
     <header>
@@ -17,48 +25,69 @@
                     <li>@Html.ActionLink("Recipes", "Recipes", "Home")</li>
                     <li>@Html.ActionLink("Add Recipe", "AddRecipe", "Home")</li>
                     <li>@Html.ActionLink("Join Us", "Register", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink(User.Identity.IsAuthenticated ? User.Identity.Name : "Guest", "Profile", "Home")</li>
+                    <li>
+                        @if (username == "Guest")
+                        {
+                            @Html.ActionLink("Guest", "Login", "Home")
+                        }
+                        else
+                        {
+                            @Html.ActionLink(username, "Profile", "Home")
+                        }
+                    </li>
                 </ul>
             </div>
         </nav>
     </header>
     <main class="main-content">
         <div class="content-wrapper">
-            <div class="form-section">
-                <div class="form-container">
-                    <h2 class="form-title">Submit a Recipe</h2>
-                    <form asp-action="SubmitData" method="post" enctype="multipart/form-data">
-                        <div class="form-group">
-                            <label for="title">Title</label>
-                            <input type="text" class="form-control" id="title" name="title" required />
-                        </div>
-                        <div class="form-group">
-                            <label for="description">Description</label>
-                            <textarea class="form-control" id="description" name="description" rows="5" required></textarea>
-                        </div>
-                        <div class="form-group">
-                            <label for="imageFile">Upload Image</label>
-                            <input type="file" class="form-control" id="imageFile" name="imageFile" accept="image/*" required />
-                        </div>
-                        <button type="submit" class="btn-submit">Submit</button>
-                    </form>
-
-                    @if (ViewBag.Message != null)
-                    {
-                        <div class="alert-message">@ViewBag.Message</div>
-                    }
+            @if (username == "Guest")
+            {
+                <div class="login-required">
+                    <p>You need to be logged in to add a recipe.</p>
+                    @Html.ActionLink("Login", "Login", "Home", new { }, new { @class = "btn-login" })
                 </div>
-            </div>
-            <div class="info-section">
-                <h1 class="info-title">Enjoy your meals, with us!</h1>
-                <p class="info-subtitle">Join our amazing community and discover new recipes every day.</p>
-            </div>
+            }
+            else
+            {
+                <!-- Formularz dodawania lub edycji przepisu -->
+                <div class="form-section">
+                    <div class="form-container">
+                        <h2 class="form-title">@((Model == null) ? "Add Recipe" : "Edit Recipe")</h2>
+                        <form asp-action="SubmitData" method="post" enctype="multipart/form-data">
+                            @if (Model != null)
+                            {
+                                <input type="hidden" name="id" value="@Model.Id" />
+                            }
+                            <div class="form-group">
+                                <label for="title">Title:</label>
+                                <input type="text" id="title" name="title" class="form-control" value="@Model?.Title" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="description">Description:</label>
+                                <textarea id="description" name="description" class="form-control" required>@Model?.Description</textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="imageFile">Image:</label>
+                                <input type="file" id="imageFile" name="imageFile" class="form-control">
+                                @if (Model != null && !string.IsNullOrEmpty(Model.ImageBase64))
+                                {
+                                    <div class="current-image">
+                                        <p>Current Image:</p>
+                                        <img src="data:image/png;base64,@Model.ImageBase64" alt="Recipe Image" class="current-image-preview">
+                                    </div>
+                                }
+                            </div>
+                            <button type="submit" class="btn-submit">@((Model == null) ? "Add Recipe" : "Update Recipe")</button>
+                        </form>
+                    </div>
+                </div>
+            }
         </div>
     </main>
     <footer class="footer">
         <div class="footer-container">
-            <p>Powered by XD | &copy; 2024</p>
+            <p>&copy; 2023 My Recipes. All rights reserved.</p>
         </div>
     </footer>
 </body>
