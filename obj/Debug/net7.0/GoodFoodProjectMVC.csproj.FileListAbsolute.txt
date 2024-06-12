@@ -92,8 +92,6 @@ C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0
 C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\Microsoft.Identity.Client.dll
 C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
@@ -155,3 +153,17 @@ C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\obj\Debug\net7.0
 C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\obj\Debug\net7.0\ref\GoodFoodProjectMVC.dll
 C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\obj\Debug\net7.0\GoodFoodProjectMVC.sourcelink.json
 C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\obj\Debug\net7.0\GoodFood.1E167F95.Up2Date
+C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\AWSSDK.Core.dll
+C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\AWSSDK.SecurityToken.dll
+C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\DnsClient.dll
+C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\MongoDB.Bson.dll
+C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\MongoDB.Driver.dll
+C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\MongoDB.Driver.Core.dll
+C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\MongoDB.Libmongocrypt.dll
+C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\SharpCompress.dll
+C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\Snappier.dll
+C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\ZstdSharp.dll
+C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\runtimes\win\native\mongocrypt.dll
+C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
