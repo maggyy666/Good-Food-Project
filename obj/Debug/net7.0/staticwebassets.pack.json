@@ -45,16 +45,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\Eoz-y2nWMAIE-dz.jpg",
-      "PackagePath": "staticwebassets\\images\\Eoz-y2nWMAIE-dz.jpg"
-    },
-    {
       "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\Espaguetis_carbonara.jpg",
       "PackagePath": "staticwebassets\\images\\Espaguetis_carbonara.jpg"
     },
     {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\IMG_0160.JPEG",
+      "PackagePath": "staticwebassets\\images\\IMG_0160.JPEG"
+    },
+    {
       "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\IMG_5757.jpg",
       "PackagePath": "staticwebassets\\images\\IMG_5757.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\IMG_8343.JPEG",
+      "PackagePath": "staticwebassets\\images\\IMG_8343.JPEG"
     },
     {
       "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\Najlepsza-domowa-pizza1.jpg",
@@ -69,8 +73,48 @@
       "PackagePath": "staticwebassets\\images\\efe28e0d-d9b0-420b-86c5-0b96945efc1e_negro_cat.gif"
     },
     {
-      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\layers-grey.png",
-      "PackagePath": "staticwebassets\\images\\layers-grey.png"
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\obraz_2024-06-07_144500125.png",
+      "PackagePath": "staticwebassets\\images\\obraz_2024-06-07_144500125.png"
+    },
+    {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\obraz_2024-06-07_144544761.png",
+      "PackagePath": "staticwebassets\\images\\obraz_2024-06-07_144544761.png"
+    },
+    {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\obraz_2024-06-07_144709497.png",
+      "PackagePath": "staticwebassets\\images\\obraz_2024-06-07_144709497.png"
+    },
+    {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\obraz_2024-06-07_144806576.png",
+      "PackagePath": "staticwebassets\\images\\obraz_2024-06-07_144806576.png"
+    },
+    {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\obraz_2024-06-07_144917598.png",
+      "PackagePath": "staticwebassets\\images\\obraz_2024-06-07_144917598.png"
+    },
+    {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\obraz_2024-06-07_144956670.png",
+      "PackagePath": "staticwebassets\\images\\obraz_2024-06-07_144956670.png"
+    },
+    {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\obraz_2024-06-07_221436898.png",
+      "PackagePath": "staticwebassets\\images\\obraz_2024-06-07_221436898.png"
+    },
+    {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\obraz_2024-06-08_105737465.png",
+      "PackagePath": "staticwebassets\\images\\obraz_2024-06-08_105737465.png"
+    },
+    {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\obraz_2024-06-08_105758392.png",
+      "PackagePath": "staticwebassets\\images\\obraz_2024-06-08_105758392.png"
+    },
+    {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\obraz_2024-06-08_212137234.png",
+      "PackagePath": "staticwebassets\\images\\obraz_2024-06-08_212137234.png"
+    },
+    {
+      "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\obraz_2024-06-09_183819893.png",
+      "PackagePath": "staticwebassets\\images\\obraz_2024-06-09_183819893.png"
     },
     {
       "Id": "C:\\Users\\kczyz\\Desktop\\Studia\\Programowanie\\GoodFoodProjectCopy\\wwwroot\\images\\spaghetti_bolognese_01.jpg",
