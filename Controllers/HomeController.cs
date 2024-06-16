@@ -57,7 +57,7 @@ namespace GoodFoodProjectMVC.Controllers
             try
             {
                 await _mongoDBService.InsertUserAsync(user);
-                HttpContext.Session.SetString("Username", user.Username); // Dodaj ustawianie sesji po rejestracji
+                HttpContext.Session.SetString("Username", user.Username); 
                 ViewBag.Message = "User registered: " + username;
                 return RedirectToAction("Index");
             }
@@ -82,7 +82,6 @@ namespace GoodFoodProjectMVC.Controllers
 
             if (imageFile != null && imageFile.Length > 0)
             {
-                // Save the new image to the "images" folder in wwwroot
                 var fileName = Path.GetFileName(imageFile.FileName);
                 var filePath = Path.Combine(_hostingEnvironment.WebRootPath, "images", fileName);
                 using (var stream = new FileStream(filePath, FileMode.Create))
@@ -90,7 +89,6 @@ namespace GoodFoodProjectMVC.Controllers
                     await imageFile.CopyToAsync(stream);
                 }
 
-                // Encode the new image as Base64
                 using (var memoryStream = new MemoryStream())
                 {
                     await imageFile.CopyToAsync(memoryStream);
@@ -101,18 +99,15 @@ namespace GoodFoodProjectMVC.Controllers
 
             if (!string.IsNullOrEmpty(id))
             {
-                // Fetch existing recipe
                 var existingRecipe = await _mongoDBService.GetRecipeByIdAsync(id);
 
                 if (existingRecipe != null)
                 {
                     if (imageBase64 == null)
                     {
-                        // Preserve the existing image if a new one is not uploaded
                         imageBase64 = existingRecipe.ImageBase64;
                     }
 
-                    // Update the recipe
                     var updatedRecipe = new FormData
                     {
                         Id = id,
@@ -131,7 +126,6 @@ namespace GoodFoodProjectMVC.Controllers
             }
             else
             {
-                // Insert new recipe
                 var newRecipe = new FormData
                 {
                     Title = title,
