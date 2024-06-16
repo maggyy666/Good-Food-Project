@@ -9,10 +9,8 @@ using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// Add session services
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30);
@@ -20,13 +18,11 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
-// Configure MongoDB connection
 builder.Services.AddSingleton<IMongoClient>(s =>
     new MongoClient(builder.Configuration.GetValue<string>("MongoDB:ConnectionString")));
 
 builder.Services.AddSingleton<MongoDBService>();
 
-// Add authentication
 builder.Services.AddAuthentication("CookieAuth")
     .AddCookie("CookieAuth", options =>
     {
@@ -47,10 +43,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 
-// Use session
 app.UseSession();
 
-// Use authentication and authorization
 app.UseAuthentication();
 app.UseAuthorization();
 
