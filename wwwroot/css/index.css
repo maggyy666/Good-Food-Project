@@ -54,9 +54,9 @@ body, html {
             }
 
 .main-content {
-    margin-top: 70px; /* Height of the header */
+    margin-top: 70px; 
     padding: 20px;
-    min-height: calc(100vh - 140px); /* 70px header + 70px footer */
+    min-height: calc(100vh - 140px); 
     background-color: #f8f9fa;
     display: flex;
     justify-content: center;
@@ -92,7 +92,7 @@ body, html {
 .recipe-item-text {
     flex: 1;
     margin-right: 20px;
-    overflow: hidden; /* Hide overflowed content */
+    overflow: hidden; 
 }
 
 .recipe-title {
@@ -100,20 +100,20 @@ body, html {
     font-weight: bold;
     margin-bottom: 10px;
     color: #343a40;
-    white-space: nowrap; /* Prevent line breaks */
-    overflow: hidden; /* Hide overflowed content */
-    text-overflow: ellipsis; /* Add ellipsis for overflowed content */
-    max-width: 80%; /* Limit the width to ensure the text doesn't overflow */
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    max-width: 80%; 
 }
 
 .recipe-description {
     font-size: 16px;
     margin-bottom: 20px;
     color: #6c757d;
-    white-space: nowrap; /* Prevent line breaks */
-    overflow: hidden; /* Hide overflowed content */
-    text-overflow: ellipsis; /* Add ellipsis for overflowed content */
-    max-width: 100%; /* Limit the width to ensure the text doesn't overflow */
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    max-width: 100%; 
 }
 
 .recipe-image {
