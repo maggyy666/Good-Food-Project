@@ -18,10 +18,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\kczyz\Desktop\Studia\Programowanie\GoodFoodProjectCopy
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Home/About.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/kczyz/Desktop/Studia/Programowanie/GoodFoodProjectCopy/Views/Home/AddRecipe.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRSZWNpcGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

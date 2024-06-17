@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GoodFoodProjectMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02efaceec2f571247ea2cfbe352d2050388962bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59aed06cea525036a372de3d3f367796f34b3eb1")]
 [assembly: System.Reflection.AssemblyProductAttribute("GoodFoodProjectMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GoodFoodProjectMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
