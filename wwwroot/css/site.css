@@ -1,5 +1,4 @@
-﻿/* General Styles */
-body, html {
+﻿body, html {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -7,9 +6,8 @@ body, html {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-x: hidden;
 }
-/* Navbar Styles */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -66,51 +64,50 @@ body, html {
             .navbar-menu li a:hover {
                 color: grey;
             }
-/* Main Content Styles */
+
 .main-content {
-    margin-top: 80px; /* Zwiększ odstęp aby dopasować do nowego rozmiaru */
+    margin-top: 80px; 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
     background-color: white;
     width: 100%;
-    max-width: 1400px; /* Zwiększ max szerokość */
+    max-width: 1400px;
     margin: 0 auto;
 }
 
 .content-wrapper {
     display: flex;
-    justify-content: space-between; /* Space between for two columns */
+    justify-content: space-between; 
     align-items: center;
     width: 100%;
     max-width: 1400px;
     height: 100%;
-    padding: 40px; /* Zwiększ padding */
+    padding: 40px; 
     box-sizing: border-box;
-    gap: 40px; /* Zwiększ odstęp między sekcjami */
+    gap: 40px; 
 }
 
-/* Welcome Section */
 .welcome-section {
-    flex: 1; /* Take equal space */
+    flex: 1; 
     text-align: left;
     padding: 20px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start; /* Aligned to the left */
+    align-items: flex-start; 
 }
 
     .welcome-section h2 {
-        font-size: 48px; /* Zwiększ rozmiar fontu */
+        font-size: 48px; 
         font-weight: bold;
         margin-bottom:5px;
     }
 
     .welcome-section p {
-        font-size: 24px; /* Zwiększ rozmiar fontu */
+        font-size: 24px;
         line-height: 1.5;
         margin-bottom: 20px;
         color: #555;
@@ -118,32 +115,32 @@ body, html {
 
 .join-link-container {
     display: flex;
-    justify-content: center; /* Centers the button horizontally */
-    width: 100%; /* Take full width to center content */
+    justify-content: center; 
+    width: 100%; 
     margin-top: 20px;
 }
 
 .join-link {
-    font-size: 17px; /* Zwiększ rozmiar fontu */
+    font-size: 17px; 
     color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 15px 30px; /* Zwiększ padding */
+    padding: 15px 30px; 
     background-color: black;
     border-radius: 20px;
     transition: background-color 0.3s, color 0.3s;
-    display: block; /* Allow centering with margin auto */
-    margin: 0 auto; /* Center the button within the container */
+    display: block; 
+    margin: 0 auto; 
 }
 
     .join-link:hover {
-        background-color: #5b6ee1; /* Blue color matching the sweater */
+        background-color: #5b6ee1; 
         color: white;
     }
 
-/* Image Section */
+
 .image-section {
-    flex: 1; /* Take equal space */
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,10 +156,9 @@ body, html {
     border-radius: 10px;
     height: 100%;
     width: 100%;
-    object-fit: cover; /* Dodane aby obraz dopasował się do kontenera */
+    object-fit: cover;
 }
 
-/* Footer Styles */
 .footer {
     background-color: #000;
     color: white;

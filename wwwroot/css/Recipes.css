@@ -1,12 +1,10 @@
-﻿/* General Styles */
-body, html {
+﻿body, html {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #f8f9fa;
 }
 
-/* Navbar Styles */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -64,7 +62,6 @@ body, html {
                 color: grey;
             }
 
-/* Main Content Styles */
 .main-content {
     display: flex;
     justify-content: center;
@@ -84,7 +81,6 @@ body, html {
     gap: 20px;
 }
 
-/* Recipe Card Styles */
 .recipe-card {
     display: flex;
     flex-direction: column;
@@ -130,10 +126,10 @@ body, html {
 .recipe-description {
     font-size: 16px;
     color: #777;
-    white-space: pre-wrap; /* Ensure new lines are respected */
-    max-height: 10em; /* Limit height */
-    overflow: hidden; /* Hide overflow */
-    position: relative; /* For text overlay */
+    white-space: pre-wrap;
+    max-height: 10em; 
+    overflow: hidden; 
+    position: relative; 
 }
 
     .recipe-description::before {
@@ -147,7 +143,6 @@ body, html {
         background: linear-gradient(to top, white, rgba(255, 255, 255, 0));
     }
 
-/* Footer Styles */
 .footer {
     background-color: black;
     color: white;

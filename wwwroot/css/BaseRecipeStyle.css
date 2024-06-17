@@ -31,13 +31,13 @@ header {
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-    cursor: default; /* Ensure cursor doesn't change to pointer */
+    cursor: default; 
 }
 
 .navbar-menu {
     list-style: none;
     display: flex;
-    justify-content: space-between; /* Distribute items evenly */
+    justify-content: space-between; 
     margin: 0;
     padding: 0;
     flex-grow: 1;
@@ -55,7 +55,7 @@ header {
             font-size: 18px;
             transition: color 0.3s;
             display: block;
-            padding: 10px 15px; /* Add some padding for better clickable area */
+            padding: 10px 15px; 
         }
 
             .navbar-menu li a:hover {
@@ -66,7 +66,7 @@ main {
     padding: 20px;
     display: flex;
     justify-content: center;
-    min-height: calc(100vh - 80px); /* Adjusted height for the footer */
+    min-height: calc(100vh - 80px);
 }
 
 .recipe-content {
@@ -85,7 +85,7 @@ main {
 }
 
 .recipe-title {
-    font-size: 80px; /* Increased font size */
+    font-size: 80px; 
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -93,14 +93,14 @@ main {
 .recipe-description {
     font-size: 23px;
     line-height: 1.6;
-    white-space: pre-line; /* Preserve formatting */
+    white-space: pre-line;
 }
 
 .recipe-image-wrapper {
     flex: 1 1 35%;
     max-width: 35%;
     margin-left: 20px;
-    margin-bottom: 20px; /* Space between image and text */
+    margin-bottom: 20px; 
 }
 
 .recipe-image {
