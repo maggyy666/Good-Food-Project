@@ -1,5 +1,4 @@
-﻿/* General Styles */
-body, html {
+﻿body, html {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -7,10 +6,9 @@ body, html {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-x: hidden; 
 }
 
-/* Navbar Styles */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -68,9 +66,9 @@ body, html {
                 color: grey;
             }
 
-/* Main Content Styles */
+
 .main-content {
-    margin-top: 70px; /* To accommodate the fixed navbar */
+    margin-top: 70px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,19 +77,18 @@ body, html {
     width: 100%;
     margin: 0 auto;
     padding: 20px;
-    min-height: calc(100vh - 70px - 60px); /* Ensure minimum height excluding navbar and footer */
+    min-height: calc(100vh - 70px - 60px);
 }
 
 .content-wrapper {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center; 
+    align-items: center; 
     width: 100%;
-    max-width: 800px; /* Limit the width of the content */
-    min-height: 100%; /* Ensure minimum height */
+    max-width: 800px; 
+    min-height: 100%; 
 }
 
-/* Form Section */
 .form-section {
     width: 100%;
     max-width: 600px;
@@ -167,7 +164,6 @@ body, html {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer Styles */
 .footer {
     background-color: black;
     color: white;
